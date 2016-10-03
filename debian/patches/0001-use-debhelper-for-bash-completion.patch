@@ -1,0 +1,24 @@
+Description: Remove bash-completion installation from CMakeLists.txt
+ The installation of the bash-completion files is removed from
+ CMakeLists.txt since the files will be installed using
+ the debhelper script dh_bash-completion.
+Author: Jan Luca Naumann <j.naumann@fu-berlin.de>
+Forwarded: not-needed
+Last-Update: 2016-10-03
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -270,12 +270,6 @@
+    DESTINATION usr/lib/udev/rules.d
+   )
+ 
+-  # Install autocompletion scripts
+-  install(FILES
+-   ${CMAKE_SOURCE_DIR}/data//bash-autocomplete/nitrokey-app
+-    DESTINATION etc/bash_completion.d
+-  )
+-
+   install(FILES
+    ${CMAKE_SOURCE_DIR}/po/de_DE/nitrokey-app.mo
+    DESTINATION usr/share/locale/de_DE/LC_MESSAGES
