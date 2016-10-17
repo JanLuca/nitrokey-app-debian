@@ -1,5 +1,5 @@
-nitrokey-app (0.5.0-1) unstable; urgency=medium
+nitrokey-app (0.5.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #835521)
 
- -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Mon, 03 Oct 2016 19:50:00 +0200
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Mon, 17 Oct 2016 14:15:06 +0200
