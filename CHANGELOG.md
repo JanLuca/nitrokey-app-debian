@@ -1,5 +1,69 @@
 # Change Log
 
+## [v0.6.1](https://github.com/Nitrokey/nitrokey-app/tree/v0.6.1) (2016-11-29)
+[Full Changelog](https://github.com/Nitrokey/nitrokey-app/compare/v0.6...v0.6.1)
+
+**Merged pull requests:**
+
+- Use native settings handler [\#206](https://github.com/Nitrokey/nitrokey-app/pull/206) ([szszszsz](https://github.com/szszszsz))
+- Add Arabic translation to resource file [\#204](https://github.com/Nitrokey/nitrokey-app/pull/204) ([szszszsz](https://github.com/szszszsz))
+
+## [v0.6](https://github.com/Nitrokey/nitrokey-app/tree/v0.6) (2016-11-28)
+[Full Changelog](https://github.com/Nitrokey/nitrokey-app/compare/v0.5.1...v0.6)
+
+**Implemented enhancements:**
+
+- Support for Pro stick version 0.8 [\#190](https://github.com/Nitrokey/nitrokey-app/issues/190)
+
+**Closed issues:**
+
+- Add command line parameter to force language [\#199](https://github.com/Nitrokey/nitrokey-app/issues/199)
+- OTP secret field's max length changes only with text inside [\#195](https://github.com/Nitrokey/nitrokey-app/issues/195)
+- Fedora 23 RPM has conflicts [\#193](https://github.com/Nitrokey/nitrokey-app/issues/193)
+- RPM package installs in wrong directory [\#178](https://github.com/Nitrokey/nitrokey-app/issues/178)
+- Invisible tray icon on openSUSE Tumbleweed unless run as root  [\#176](https://github.com/Nitrokey/nitrokey-app/issues/176)
+- Mac OS X version and missing QT libraries [\#163](https://github.com/Nitrokey/nitrokey-app/issues/163)
+
+**Merged pull requests:**
+
+- Changelog update [\#203](https://github.com/Nitrokey/nitrokey-app/pull/203) ([szszszsz](https://github.com/szszszsz))
+- Update README.md [\#202](https://github.com/Nitrokey/nitrokey-app/pull/202) ([szszszsz](https://github.com/szszszsz))
+- Add language CLI param [\#200](https://github.com/Nitrokey/nitrokey-app/pull/200) ([szszszsz](https://github.com/szszszsz))
+- Bump version to 0.6 [\#198](https://github.com/Nitrokey/nitrokey-app/pull/198) ([szszszsz](https://github.com/szszszsz))
+- Support for Nitrokey Pro 0.8 [\#196](https://github.com/Nitrokey/nitrokey-app/pull/196) ([szszszsz](https://github.com/szszszsz))
+- Resolve conflict with udev rules \(for Fedora 23\) [\#194](https://github.com/Nitrokey/nitrokey-app/pull/194) ([vladimir-lu](https://github.com/vladimir-lu))
+- build: set CMAKE\_BUILD\_TYPE only if not set [\#188](https://github.com/Nitrokey/nitrokey-app/pull/188) ([ignatenkobrain](https://github.com/ignatenkobrain))
+- Translations: initial support for Arabic \(ar\) language [\#183](https://github.com/Nitrokey/nitrokey-app/pull/183) ([szszszsz](https://github.com/szszszsz))
+- Change RPM package installation dir [\#180](https://github.com/Nitrokey/nitrokey-app/pull/180) ([szszszsz](https://github.com/szszszsz))
+- Update README.md [\#179](https://github.com/Nitrokey/nitrokey-app/pull/179) ([szszszsz](https://github.com/szszszsz))
+- Update changelog [\#174](https://github.com/Nitrokey/nitrokey-app/pull/174) ([szszszsz](https://github.com/szszszsz))
+
+## [v0.5.1](https://github.com/Nitrokey/nitrokey-app/tree/v0.5.1) (2016-10-08)
+[Full Changelog](https://github.com/Nitrokey/nitrokey-app/compare/v0.5...v0.5.1)
+
+**Closed issues:**
+
+- Retry counters are not updated before opening About form \(NK Storage\) [\#170](https://github.com/Nitrokey/nitrokey-app/issues/170)
+- No failure feedback when user erases OTP slot [\#168](https://github.com/Nitrokey/nitrokey-app/issues/168)
+- Confirm erasing PWS slot [\#167](https://github.com/Nitrokey/nitrokey-app/issues/167)
+- Display NK Storage capacity in About window [\#162](https://github.com/Nitrokey/nitrokey-app/issues/162)
+- Abort action when device is not initialized [\#156](https://github.com/Nitrokey/nitrokey-app/issues/156)
+- Buffer overflow while adding OTP [\#155](https://github.com/Nitrokey/nitrokey-app/issues/155)
+- Provide binaries for Ubuntu via Launchpad [\#115](https://github.com/Nitrokey/nitrokey-app/issues/115)
+- show success dialogue when saving a new static password: [\#57](https://github.com/Nitrokey/nitrokey-app/issues/57)
+
+**Merged pull requests:**
+
+- Fix typo in debian/changelog [\#173](https://github.com/Nitrokey/nitrokey-app/pull/173) ([szszszsz](https://github.com/szszszsz))
+- Bump version to 0.5.1 [\#172](https://github.com/Nitrokey/nitrokey-app/pull/172) ([szszszsz](https://github.com/szszszsz))
+- Confirm erasing slot in Password Safe. Handle confirmation properly in OTP. [\#171](https://github.com/Nitrokey/nitrokey-app/pull/171) ([szszszsz](https://github.com/szszszsz))
+- Abort sending command to uninitialized device [\#169](https://github.com/Nitrokey/nitrokey-app/pull/169) ([szszszsz](https://github.com/szszszsz))
+- Show feedback message after saving password to Password Safe [\#166](https://github.com/Nitrokey/nitrokey-app/pull/166) ([szszszsz](https://github.com/szszszsz))
+- Add to About window stick's storage capacity [\#165](https://github.com/Nitrokey/nitrokey-app/pull/165) ([szszszsz](https://github.com/szszszsz))
+- Avoid buffer overflow during hex\<-\>base32 conversion [\#164](https://github.com/Nitrokey/nitrokey-app/pull/164) ([szszszsz](https://github.com/szszszsz))
+- Remove issues closed as duplicate from the changelog [\#160](https://github.com/Nitrokey/nitrokey-app/pull/160) ([szszszsz](https://github.com/szszszsz))
+- Add CHANGELOG.md generated with github-changelog-generator [\#159](https://github.com/Nitrokey/nitrokey-app/pull/159) ([szszszsz](https://github.com/szszszsz))
+
 ## [v0.5](https://github.com/Nitrokey/nitrokey-app/tree/v0.5) (2016-09-28)
 [Full Changelog](https://github.com/Nitrokey/nitrokey-app/compare/v0.4...v0.5)
 
@@ -86,10 +150,8 @@
 - Check feedback for firmware password changing with Nitrokey Storage [\#97](https://github.com/Nitrokey/nitrokey-app/issues/97)
 - Can't unlock password safe [\#96](https://github.com/Nitrokey/nitrokey-app/issues/96)
 - Can't configure hidden volume [\#95](https://github.com/Nitrokey/nitrokey-app/issues/95)
-- Config backup [\#87](https://github.com/Nitrokey/nitrokey-app/issues/87)
 - Readme: remove section about building from sources with QT4 [\#85](https://github.com/Nitrokey/nitrokey-app/issues/85)
 - Only first TOTP is valid [\#82](https://github.com/Nitrokey/nitrokey-app/issues/82)
-- No factory reset option available  [\#80](https://github.com/Nitrokey/nitrokey-app/issues/80)
 - USB 3.0: Updating progress bar during clearing SD card is not working [\#76](https://github.com/Nitrokey/nitrokey-app/issues/76)
 - NK Storage: About dialog does not show current retry counts [\#66](https://github.com/Nitrokey/nitrokey-app/issues/66)
 - Show available password retry count in change password form [\#65](https://github.com/Nitrokey/nitrokey-app/issues/65)
