@@ -9,16 +9,16 @@ Last-Update: 2016-10-03
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -270,12 +270,6 @@
-    DESTINATION usr/lib/udev/rules.d
+@@ -268,12 +268,6 @@
+    DESTINATION lib/udev/rules.d
    )
  
 -  # Install autocompletion scripts
 -  install(FILES
--   ${CMAKE_SOURCE_DIR}/data//bash-autocomplete/nitrokey-app
--    DESTINATION etc/bash_completion.d
+-   ${CMAKE_SOURCE_DIR}/data/bash-autocomplete/nitrokey-app
+-    DESTINATION /etc/bash_completion.d
 -  )
 -
    install(FILES
     ${CMAKE_SOURCE_DIR}/po/de_DE/nitrokey-app.mo
-    DESTINATION usr/share/locale/de_DE/LC_MESSAGES
+    DESTINATION share/locale/de_DE/LC_MESSAGES
