@@ -2,9 +2,16 @@ Source: nitrokey-app
 Section: utils
 Priority: optional
 Maintainer: Jan Luca Naumann <j.naumann@fu-berlin.de>
-Build-Depends: debhelper (>= 9), cmake, qtbase5-dev, qtchooser, qt5-qmake,
-               libusb-1.0-0-dev, libgtk2.0-dev, libappindicator-dev, libnotify-dev,
-               bash-completion
+Build-Depends: bash-completion,
+               cmake,
+               debhelper (>= 9),
+               libappindicator-dev,
+               libgtk2.0-dev,
+               libnotify-dev,
+               libusb-1.0-0-dev,
+               qt5-qmake,
+               qtbase5-dev,
+               qtchooser
 Standards-Version: 3.9.8
 Homepage: https://github.com/Nitrokey/nitrokey-app
 Vcs-Git: https://github.com/JanLuca/nitrokey-app-debian.git
@@ -12,9 +19,10 @@ Vcs-Browser: https://github.com/JanLuca/nitrokey-app-debian
 
 Package: nitrokey-app
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libccid, pcscd, scdaemon
 Description: Application to manage the Nitrokey
  Nitrokey is an open source/open hardware USB key supporting
  secure encryption and signing. This package installs the
- official application to manage the features
- of the different USB keys.
+ official application to manage the features of the different
+ USB keys.
