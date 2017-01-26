@@ -1,3 +1,9 @@
+nitrokey-app (0.6.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Thu, 26 Jan 2017 23:35:24 +0100
+
 nitrokey-app (0.6.2-1) unstable; urgency=medium
 
   * New upstream release.
