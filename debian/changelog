@@ -1,3 +1,10 @@
+nitrokey-app (0.6.3-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+  * Set minimum version for cmake build dependency to >= 3.1.0.
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Tue, 07 Feb 2017 12:03:51 +0100
+
 nitrokey-app (0.6.3-1) unstable; urgency=medium
 
   * New upstream release.

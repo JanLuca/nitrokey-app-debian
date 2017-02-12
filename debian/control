@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Jan Luca Naumann <j.naumann@fu-berlin.de>
 Build-Depends: bash-completion,
-               cmake,
+               cmake (>=3.1.0),
                debhelper (>= 9),
                libappindicator-dev,
                libgtk2.0-dev,
