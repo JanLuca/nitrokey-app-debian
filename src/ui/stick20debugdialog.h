@@ -20,7 +20,6 @@
 #ifndef DEBUGDIALOG_H
 #define DEBUGDIALOG_H
 
-#include "device.h"
 #include <QDialog>
 
 namespace Ui {
@@ -31,21 +30,13 @@ class DebugDialog : public QDialog {
   Q_OBJECT public : explicit DebugDialog(QWidget *parent = 0);
   ~DebugDialog();
 
-  QString DebugText;
+  public slots:
+    void on_DebugData(QString message);
 
-  void updateText(void);
-
-  Device *cryptostick;
-
-private slots:
-  void UpdateDebugText();
-
-  void on_pushButton_clicked();
 
 private:
   Ui::DebugDialog *ui;
 
-  QTimer *RefreshTimer;
 };
 
 #endif // DEBUGDIALOG_H

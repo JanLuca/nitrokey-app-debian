@@ -4,110 +4,118 @@
 <context>
     <name>AboutDialog</name>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="23"/>
         <source>About</source>
         <translation>حول</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="53"/>
         <source>ICON</source>
         <translation>أيقونة</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;This application allows you to configure and use the Nitrokey Pro and Nitrokey Storage.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;
-هذا التطبيق يتيح لك استخدام نتروكي برو و نتروكي ستوريج
-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/aboutdialog.ui" line="82"/>
         <source>i</source>
         <translation>i</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="136"/>
         <source>App version:</source>
         <translation>إصدار التطبيق</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="179"/>
         <source>Firmware version:</source>
         <translation>إصدار الفيرم وير</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="222"/>
         <source>Card serial number:</source>
         <translation>الرقم التلسلي للكرت</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="152"/>
+        <location filename="../src/ui/aboutdialog.ui" line="195"/>
+        <location filename="../src/ui/aboutdialog.ui" line="238"/>
         <source>TextLabel</source>
         <translation type="unfinished">TextLabel</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.nitrokey.com/start&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;Instructions and help&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.nitrokey.com/start&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;
-التعليمات والمساعدة
-&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/aboutdialog.ui" line="278"/>
         <source>Status</source>
         <translation>الحالة</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="392"/>
         <source>Hidden Volume:</source>
         <translation>الجزء المخفي</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="584"/>
         <source>&lt;span style=&quot;color:#c80636&quot;&gt;Warning&lt;/span&gt;</source>
         <translation>&lt;span style=&quot;color:#c80636&quot;&gt;
 تحذير
 &lt;/span&gt;</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="612"/>
         <source>Stick is not secure!
 Select Init keys.</source>
         <translation>ذاكرة الفلاش غير آمنة!
 اختر مفاتيح التأسيس</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="534"/>
         <source>New SD card found</source>
         <translation>وجد ذاكرة إس دي جديدة</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="549"/>
         <source>(Not erased with random data)</source>
         <translation>(لم تمسح مسحا آمنا ببيانات عشوائية)</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="314"/>
         <source>SD ID:</source>
         <translation>رقم الإس دي</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="340"/>
         <source>Unencrypted volume:</source>
         <translation>الجزء غير المشفر</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="366"/>
         <source>Encrypted volume:</source>
         <translation>الجزء المشفر</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="514"/>
         <source>Password retry counters:</source>
         <translation>عداد محاولات إدخال الرمز السري</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="468"/>
         <source>Admin:</source>
         <translation>المستخدم المدير</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="478"/>
         <source>User:</source>
         <translation>المستخدم</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Copyright 2016 by NitrokeyUG. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;This software is licensed under the &lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; text-decoration: underline; color:#c80636;&quot;&gt;GNU General Public License v3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nitrokey.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;www.nitrokey.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;حقوق الطبع 2016 by NitrokeyUG. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;هذا التطبيق مرخص تحت &lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; text-decoration: underline; color:#c80636;&quot;&gt;GNU General Public License v3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nitrokey.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;www.nitrokey.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/aboutdialog.ui" line="720"/>
         <source>Detailed Status</source>
         <translation>الحالة المفصلة</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="730"/>
         <source>OK</source>
         <translation>نعم</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="343"/>
         <source>
 SD card is not accessible
 
@@ -117,6 +125,7 @@ SD card is not accessible
 </translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="355"/>
         <source>
 Smartcard is not accessible
 
@@ -126,28 +135,36 @@ Smartcard is not accessible
 </translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="359"/>
         <source>No connection
 Please retry</source>
         <translation>لا يوجد إتصال
 الرجاء إعادة المحاولة</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="329"/>
         <source>READ/WRITE</source>
         <translation>قراءة/كتابة</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="329"/>
         <source>READ ONLY</source>
         <translation>للقراءة فقط</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="332"/>
+        <location filename="../src/ui/aboutdialog.cpp" line="336"/>
         <source>Active</source>
         <translation>نشط</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="334"/>
+        <location filename="../src/ui/aboutdialog.cpp" line="336"/>
         <source>Not active</source>
         <translation>غير نشط</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="221"/>
         <source>No active Nitrokey
 
 </source>
@@ -155,915 +172,707 @@ Please retry</source>
 </translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="418"/>
         <source>Storage Capacity:</source>
         <translation>مساحة التخزين</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="311"/>
         <source>%1 GB</source>
         <translation>%1 جيجابايت</translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="67"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This application allows you to configure and use the Nitrokey Pro and Nitrokey Storage.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="92"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.nitrokey.com/start&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;Instructions and help&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/aboutdialog.ui" line="673"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Copyright 2016 by NitrokeyUG. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;This software is licensed under the &lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic; text-decoration: underline; color:#c80636;&quot;&gt;GNU General Public License v3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nitrokey.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#c80636;&quot;&gt;www.nitrokey.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="293"/>
+        <source>      *** Clearing data in progress ***</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="297"/>
+        <source>      *** Communication error ***</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/aboutdialog.cpp" line="322"/>
+        <source>      *** Firmware is locked ***</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/aboutdialog.ui" line="710"/>
+        <source>Licenses and 3rd-party components</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Authentication</name>
+    <message>
+        <location filename="../src/GUI/Authentication.cpp" line="69"/>
+        <source>Wrong PIN. Please try again.</source>
+        <translation type="unfinished">كلمة سر خطأ. يرجى إعادة المحاولة</translation>
     </message>
 </context>
 <context>
     <name>DebugDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation>الحوار</translation>
+        <location filename="../src/ui/stick20debugdialog.ui" line="14"/>
+        <source>Debug Log</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Output GUI</source>
-        <translation>الواجهة الرسومية للمخرج</translation>
-    </message>
-    <message>
-        <source>Update</source>
-        <translation>تحديث</translation>
-    </message>
-    <message>
-        <source>Auto update</source>
-        <translation>تحديث تلقائي</translation>
-    </message>
-    <message>
-        <source>Device Output</source>
-        <translation>مخرج الجهاز</translation>
-    </message>
-    <message>
-        <source>Device output logged via USB</source>
-        <translation>سجل جهاز المخرج عبر منفذ يو إس بي</translation>
+        <location filename="../src/ui/stick20debugdialog.ui" line="40"/>
+        <source>Debug log</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DialogChangePassword</name>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="26"/>
         <source>Change user PIN</source>
         <translation>غير الرقم السري للمستخدم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="59"/>
         <source>Old PIN</source>
         <translation>الرقم السري القديم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="79"/>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="99"/>
         <source>New PIN</source>
         <translation>الرقم السري الجديد</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="125"/>
         <source>Show PIN</source>
         <translation>أظهر الرقم السري</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;You can use upper and lower case, numbers, and special characters.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;يمكنك استخدام الحروف الكبيرة، الصغيرة، الأرقام، أو الرموز الخاصة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;PINs can only be tried three times and are secure against brute force guessing. A PIN of 6 or 8 digits is sufficiently long and longer or more complex PINs are usually unnecessary. The minimum length is %1 (%3 for admin) and the maximum length is %2 chars. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;الأرقام السرية تقبل ثلاث محاولات إدخال وذلك حماية من محاولات الكسر. رقم سري من 6 أو 8 خانات بطول كاف، ورقم سري أطول أو أكثر تعقيدا لا حاجة له عادة. هذه القاعدة لا تنطبق على كلمة السر للفيرم وير. الطول الأدنى %1 (%3 للمدير) والأقصى %2 خانات.  &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="180"/>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="193"/>
         <source>Retry count left:</source>
         <translation>عدد محاولات الإعادة المتبقية</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="151"/>
         <source>Admin PIN:</source>
         <translation>كلمة سر المستخدم المدير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="157"/>
         <source>Change Firmware Password</source>
         <translation>قم بتغيير كلمة السر للفيرم وير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="159"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="160"/>
         <source>New Firmware Password:</source>
         <translation>كلمة السر الجديدة للفبرم وير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="66"/>
         <source>Unfortunately you have no more trials left. Please use &apos;Reset User PIN&apos; option from menu to reset password</source>
         <translation>لسوء الحظ، استنفذت كل محاولات الإعادة. يرجى استخدام خيار &quot;إعادة تهيئة الرقم السري للمستخدم&quot; من القائمة لإعادة تهيئة كلمة السر.</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="71"/>
         <source>Unfortunately you have no more trials left. Please check instruction how to reset Admin password.</source>
         <translation>لسوء الحظ، استنفذت كل محاولات الإعادة. يرجى مطالعة التعليمات لمعرفة كيفية إعادة تهيئة كلمة السر للمدير.</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="175"/>
         <source>Once the firmware password is forgotten the Nitrokey can&apos;t be updated or reset. Don&apos;t lose your firmware password, please.</source>
         <translation>في حالة نسيان كلمة السر للفيرم وير فإنه لن يمكن تحديثه أو إعادة تهيئته. لذلك يرجى عدم نسيان كلمة سر الفير وير.</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="136"/>
         <source>Set User PIN</source>
         <translation>هيئ الرقم السري المستخدم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="137"/>
         <source>Current User PIN:</source>
         <translation>كلمة السر الحالية</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="138"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="139"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="152"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="153"/>
         <source>New User PIN:</source>
         <translation>كلمة السر الجديدة للمستخدم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="143"/>
         <source>Set Admin PIN</source>
         <translation>هيئ كلمة السر للمدير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="144"/>
         <source>Current Admin PIN:</source>
         <translation>الرقم السري الحالي للمدير:</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="145"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="146"/>
         <source>New Admin PIN:</source>
         <translation>الرقم السري الجديد للمدير:</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="150"/>
         <source>Reset User PIN</source>
         <translation>هيئ كلمة السر للمستخدم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="158"/>
         <source>Current Firmware Password:</source>
         <translation>كلمة السر الحالية للفيرم وير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="161"/>
         <source>Show password</source>
         <translation>أظهر كلمة السر</translation>
     </message>
     <message>
-        <source>There was a problem during communicating with device. Please retry.</source>
-        <translation>هناك مشكلة في الإتصال بالجهاز. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="227"/>
         <source>Current password is not correct. Please retry.</source>
         <translation>الرقم السري الحالي غير صحيح. يرجى إعادة المحاولة</translation>
     </message>
     <message>
-        <source>New password is not correct. Please retry.</source>
-        <translation>الرقم السري الجديد غير صحيح. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="232"/>
         <source>New password is set</source>
         <translation>تم تهيئة الرقم السري الجديد</translation>
     </message>
     <message>
-        <source>Wrong password.</source>
-        <translation>الرقم السري خاطئ</translation>
-    </message>
-    <message>
-        <source>Couldn&apos;t change %1 password</source>
-        <translation>لم يمكن تغيير %1 الرقم السري</translation>
-    </message>
-    <message>
-        <source>Current Admin password is not correct. Please retry.</source>
-        <translation>الرقم السري الحالي للمستخدم المدير غير صحيح. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>There was a problem during communicating with device or new password is not correct. Please retry.</source>
-        <translation>هناك مشكلة في الإتصال بالجهاز أو كلمة السر الجديدة غير صحيحة. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>New User password is set</source>
-        <translation>تم تهيئة الرقم السري الجديد للمستخدم</translation>
-    </message>
-    <message>
-        <source>Wrong Admin PIN.</source>
-        <translation>الرقم السري خاطئ للمدير</translation>
-    </message>
-    <message>
-        <source>Couldn&apos;t unblock the user PIN. Error: %1</source>
-        <translation>لم يمكن حظر كلمة سر المستخدم. خطأ %1</translation>
-    </message>
-    <message>
-        <source>User PIN successfully unblocked</source>
-        <translation>الرقم السري للمستخدم أزيل الحظر عنه بنجاح</translation>
-    </message>
-    <message>
-        <source>Wrong password or there was a communication problem with the device.</source>
-        <translation>هناك مشكلة في الإتصال بالجهاز أو كلمة السر الجديدة للفيرم وير غير صحيحة. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>Password has been changed with success!</source>
-        <translation>تم تغيير كلمة سر الفيرم وير بنجاح</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="243"/>
         <source>The minimum length of the old password is </source>
         <translation>الحد الأدنى لطول كلمة السر القديمة هو </translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="244"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="262"/>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="272"/>
         <source> chars</source>
         <translation> خانات</translation>
     </message>
     <message>
-        <source>The new password entrys are not the same</source>
-        <translation>مدخلات كلمة السر الجديدة غير متطابقة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="261"/>
         <source>The maximum length of a password is </source>
         <translation>الحد الأقصى لكملة السر هو </translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="271"/>
         <source>The minimum length of a password is </source>
         <translation>الحد الأدنى لكلمة السر هو </translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="115"/>
         <source>Device is not yet initialized. Please try again later.</source>
         <translation>الجهاز لم يتم تأسيسه بعد. يرجى إعادة المحاولة</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="140"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;You can use upper and lower case, numbers, and special characters.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20changepassworddialog.ui" line="165"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;PINs can only be tried three times and are secure against brute force guessing. A PIN of 6 or 8 digits is sufficiently long and longer or more complex PINs are usually unnecessary. The minimum length is %1 (%3 for admin) and the maximum length is %2 chars. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20changepassworddialog.cpp" line="253"/>
+        <source>The new password entries are not the same</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>HOTPDialog</name>
+    <name>LicenseDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation>محاورة</translation>
-    </message>
-    <message>
-        <source>Your HOTP:</source>
-        <translation>HOTP التابعة لك</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>أغلق</translation>
-    </message>
-    <message>
-        <source>Get next</source>
-        <translation>احصل على التالي</translation>
-    </message>
-    <message>
-        <source>TOTP interval:</source>
-        <translation>مدى TOTP</translation>
-    </message>
-    <message>
-        <source>Valid</source>
-        <translation>مسموح/صالح</translation>
-    </message>
-    <message>
-        <source>HOTP copied to clipboard</source>
-        <translation>نسخت للحافظة - كلمة السر لمرة واحدة طويلة الأمد-</translation>
-    </message>
-    <message>
-        <source>Next HOTP</source>
-        <translation>كلمة السر لمرة واحدة طويلة الأمد - التالية</translation>
-    </message>
-    <message>
-        <source>Your TOTP:</source>
-        <translation>كلمة السر لمرة واحدة قصيرة الأمد- التابعة لك</translation>
-    </message>
-    <message>
-        <source>Generate TOTP</source>
-        <translation>أنتج كلمة السر لمرة واحدة قصيرة الأمد</translation>
-    </message>
-    <message>
-        <source>TOTP copied to clipboard</source>
-        <translation>كلمة السر لمرة واحدة قصيرة الأمد نسخت للحافظة</translation>
-    </message>
-    <message>
-        <source>Invalid</source>
-        <translation>غير صالح</translation>
+        <location filename="../src/ui/licensedialog.ui" line="14"/>
+        <source>License information (ESC to Exit)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="20"/>
         <source>Configuration</source>
         <translation>تهيئة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="65"/>
         <source>OTP Slot Configuration</source>
         <translation>تهيئة موضع كلمة السر لمرة واحدة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="89"/>
         <source>Manage slots</source>
         <translation>التحكم في المواضع</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="104"/>
         <source>TOTP</source>
         <translation>كلمة السر لمرة واحدة قصيرة الامد</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="120"/>
         <source>HOTP</source>
         <translation>كلمة السر لمرة واحدة طويلة الامد</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="156"/>
+        <location filename="../src/ui/mainwindow.ui" line="1201"/>
         <source>Slot:</source>
         <translation>موضع</translation>
     </message>
     <message>
         <source>HOTP slot 1</source>
-        <translation>HOTP موضع 1</translation>
+        <translation type="vanished">HOTP موضع 1</translation>
     </message>
     <message>
         <source>HOTP slot 2</source>
-        <translation>HOTP موضع 2</translation>
+        <translation type="vanished">HOTP موضع 2</translation>
     </message>
     <message>
         <source>TOTP slot 1</source>
-        <translation>TOTP موضع 1</translation>
+        <translation type="vanished">TOTP موضع 1</translation>
     </message>
     <message>
         <source>TOTP slot 2</source>
-        <translation>TOTP موضع 2</translation>
+        <translation type="vanished">TOTP موضع 2</translation>
     </message>
     <message>
         <source>TOTP slot 3</source>
-        <translation>TOTP موضع 3</translation>
+        <translation type="vanished">TOTP موضع 3</translation>
     </message>
     <message>
         <source>TOTP slot 4</source>
-        <translation>TOTP موضع 4</translation>
+        <translation type="vanished">TOTP موضع 4</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="206"/>
+        <location filename="../src/ui/mainwindow.ui" line="1162"/>
         <source>Erase Slot</source>
         <translation>إلغاء موضع</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="213"/>
         <source>Name:</source>
         <translation>إسم</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="256"/>
         <source>Secret key</source>
         <translation>مفتاح سري</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;The secret is provided by your service provider you may want to login or can be configured in your local application which you may want to login to.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;السر الموفر من قبل مقدم الخدمة والذي ترغب الدخول إليه، أو الذي يمكن تهيئته في تطبيقك المحلي  الذي ترغب الدخول إليه/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="278"/>
         <source>Secret Key:</source>
         <translation>مفتاح سري</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="308"/>
         <source>********************************</source>
         <translation>********************************</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="326"/>
         <source>Secret copied to clipboard</source>
         <translation>السر نسخ إلى الحافظة</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Hide or show the secret.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;أظهر أو أخف السر&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="341"/>
+        <location filename="../src/ui/mainwindow.ui" line="1214"/>
         <source>Hide secret</source>
         <translation>أخف السر</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;After generating a random secret, you would need to copy it into your application or service where you want to login to.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt; بعد توليد السر العشوائي، قم بنسخه للتطبيق أو الخدمة التي تريد الدخول لها.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="367"/>
         <source>Generate random secret</source>
         <translation>ولِّد السر العشوائي</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="268"/>
         <source>Input format:</source>
         <translation>صيغة المدخلات</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Example: &quot;ZR3M5I...&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;مثال: &quot;ZR3M5I...&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Exampel: &quot;0xA3911C05...&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;مثال: &quot;0xA3911C05...&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="405"/>
         <source>Hex</source>
         <translation>الاساس الست عشري</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="456"/>
         <source>Note: 2&lt;sup&gt;nd&lt;/sup&gt; factors aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
         <translation>ملاحظة: 2&lt;sup&gt;الثاني&lt;/sup&gt; المعاملات غير محمية ضد الهجمات الحسية. قم بتغيير كل كلمات السر عند فقدانك لنتروكي</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="487"/>
         <source>Parameters</source>
         <translation>معاملات</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="529"/>
         <source>Set to zero</source>
         <translation>اضبطه صفرا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="539"/>
         <source>Set to random</source>
         <translation>اضبطه عشوائيا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="568"/>
         <source>6 digits</source>
         <translation>6 أرقام</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="581"/>
         <source>8 digits</source>
         <translation>8 أرقام</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="636"/>
         <source>Moving factor seed:</source>
         <translation>تحريك معامل البذر العشوائي</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="643"/>
+        <location filename="../src/ui/mainwindow.cpp" line="459"/>
         <source>HOTP length:</source>
         <translation>طول كلمة السر لمرة واحدة طويلة الأمد</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="650"/>
         <source>TOTP interval:</source>
         <translation>مدى كلمة السر لمرة واحدة قصيرة الأمد</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="680"/>
         <source>Token ID</source>
         <translation>رقم التوكن</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="692"/>
         <source>Send token ID</source>
         <translation>أرسل رقم التوكن</translation>
     </message>
     <message>
-        <source>Keyboard layout (DISABLED FEATURE):</source>
-        <translation>نسق لوحة المفاتيح (ميزة معطلة)</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="747"/>
         <source>MUI:</source>
         <translation>MUI</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="724"/>
         <source>TT:</source>
         <translation>TT</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="701"/>
         <source>OMP:</source>
         <translation>OMP</translation>
     </message>
     <message>
-        <source>QWERTY</source>
-        <translation>QWERTY</translation>
-    </message>
-    <message>
-        <source>QWERTZ</source>
-        <translation>QWERTZ</translation>
-    </message>
-    <message>
-        <source>AZERTY</source>
-        <translation>AZERTY</translation>
-    </message>
-    <message>
-        <source>DVORAK</source>
-        <translation>DVORAK</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="825"/>
+        <location filename="../src/ui/mainwindow.ui" line="1081"/>
+        <location filename="../src/ui/mainwindow.ui" line="1331"/>
         <source>Cancel</source>
         <translation>ألغ</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="832"/>
+        <location filename="../src/ui/mainwindow.ui" line="1088"/>
+        <location filename="../src/ui/mainwindow.ui" line="1338"/>
         <source>Save</source>
         <translation>احفظ</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="101"/>
+        <location filename="../src/ui/mainwindow.ui" line="117"/>
+        <location filename="../src/ui/mainwindow.ui" line="132"/>
         <source>(Recommendation: Use TOTP for web applications and HOTP for local applications)</source>
         <translation>(توصية: استخدم كلمة سر لمرة واحدة قصيرة الأمد لتطبيقات الوب، وطويلة الأمد للتطبيقات المحلية)</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="386"/>
         <source>Base32</source>
         <translation>أساس 32</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="494"/>
         <source>Send &apos;enter&apos; as the last keystroke</source>
         <translation>أرسل &apos;enter&apos; كآخر مدخل من لوحة المفاتيح</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="516"/>
         <source>00000000000000000000</source>
         <translation>00000000000000000000</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="842"/>
         <source>OTP General</source>
         <translation>OTP العام</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="866"/>
         <source>OTP Password settings</source>
         <translation>إعدادات كلمة السر OTP</translation>
     </message>
     <message>
-        <source>USB-Keyboard only</source>
-        <translation>لوحة مفاتيح لمنفذ USB</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="923"/>
+        <location filename="../src/ui/mainwindow.ui" line="948"/>
         <source>Double press NumLock:</source>
         <translation>اضغط مرتين على NumLock</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="930"/>
+        <location filename="../src/ui/mainwindow.ui" line="973"/>
         <source>Double press CapsLock:</source>
         <translation>اضغط مرتين على CapsLock</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="937"/>
+        <location filename="../src/ui/mainwindow.ui" line="998"/>
         <source>Double press ScrollLock:</source>
         <translation>اضغط مرتين على ScrollLock</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="955"/>
+        <location filename="../src/ui/mainwindow.ui" line="980"/>
+        <location filename="../src/ui/mainwindow.ui" line="1005"/>
         <source>Do nothing</source>
         <translation>لا تفعل شيئا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="960"/>
+        <location filename="../src/ui/mainwindow.ui" line="985"/>
+        <location filename="../src/ui/mainwindow.ui" line="1010"/>
         <source>Send HOTP1</source>
         <translation>أرسل HOTP1</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="965"/>
+        <location filename="../src/ui/mainwindow.ui" line="990"/>
+        <location filename="../src/ui/mainwindow.ui" line="1015"/>
         <source>Send HOTP2</source>
         <translation>أرسل HTOP2</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1098"/>
         <source>Password Safe</source>
         <translation>خزانة كلمات السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1124"/>
+        <location filename="../src/ui/mainwindow.ui" line="1138"/>
         <source>Password:</source>
         <translation>كلمة سر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1131"/>
+        <location filename="../src/ui/mainwindow.ui" line="1152"/>
         <source>Login name:</source>
         <translation>اسم الدخول</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1145"/>
+        <location filename="../src/ui/mainwindow.ui" line="1169"/>
         <source>Slot name:</source>
         <translation>اسم الموضع</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1183"/>
         <source>Static password 0</source>
         <translation>كلمة سر ثابتة 0</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1194"/>
         <source>Generate random password</source>
         <translation>ولد كلمة سر عشوائية</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1224"/>
         <source>Characters left:</source>
         <translation>أحرف متبقية</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="1251"/>
         <source>...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Password Safe fields support UTF8 data. It means that you can use your national characters here. Please remember however that non-English characters could take more space (up to 4 characters). The counters next to each field are to inform how much more standard English characters can given field accept.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;حقول خزانة كلمات السر تدعم بيانات UTF8. بمعنى أنه يمكنك استخدام أحرف للغة المحلية. يرجى التنبه أن الأحرف غير الإنجليزية قد تشغل مساحة أكبر (لغاية 4 أحرف).العدادات بجوار الحقول تخبر كم حرفا إنجليزيا يمكن لهذا لحق ما قبوله.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1020"/>
         <source>Unlock password safe</source>
         <translation>افتح خزانة كلمات السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="116"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1425"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1426"/>
         <source>Nitrokey disconnected</source>
         <translation>نتروكي غير متصل</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1455"/>
         <source>Nitrokey Pro connected</source>
         <translation>نتروكي برو متصل</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1454"/>
         <source>Nitrokey Storage connected</source>
         <translation>نتروكي ستوريج متصل</translation>
     </message>
     <message>
-        <source>&amp;OTP</source>
-        <translation>&amp;OTP</translation>
-    </message>
-    <message>
-        <source>&amp;Factory reset</source>
-        <translation>&amp;تهيئة المصنع</translation>
-    </message>
-    <message>
-        <source>&amp;Change User PIN</source>
-        <translation>&amp;غير كلمة سر المستخدم</translation>
-    </message>
-    <message>
-        <source>&amp;Change Admin PIN</source>
-        <translation>&amp;غير كلمة سر المدير</translation>
-    </message>
-    <message>
-        <source>&amp;Debug</source>
-        <translation>&amp;صحح</translation>
-    </message>
-    <message>
-        <source>&amp;Quit</source>
-        <translation>&amp;أخرج</translation>
-    </message>
-    <message>
-        <source>&amp;About Nitrokey</source>
-        <translation>&amp;حول نتروكي</translation>
-    </message>
-    <message>
-        <source>&amp;OTP and Password safe</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;SecPassword</source>
-        <translation>&amp;كلمة سر</translation>
-    </message>
-    <message>
-        <source>&amp;Stick 20 Setup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Unlock encrypted volume</source>
-        <translation>&amp;افتح الجزء المشفر</translation>
-    </message>
-    <message>
-        <source>&amp;Lock encrypted volume</source>
-        <translation>&amp;أغلق الجزء المشفر</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock hidden volume</source>
-        <translation>&amp;افتح الجزء المخفي</translation>
-    </message>
-    <message>
-        <source>&amp;Lock hidden volume</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Enable firmware update</source>
-        <translation>&amp;فعل تحديث الفيرم وير</translation>
-    </message>
-    <message>
-        <source>&amp;Export firmware to file</source>
-        <translation>&amp;صدر الفيرم وير لملف</translation>
-    </message>
-    <message>
-        <source>&amp;Destroy encrypted data</source>
-        <translation>&amp;دمر بيانات الجزء المشفر</translation>
-    </message>
-    <message>
-        <source>&amp;Initialize storage with random data</source>
-        <translation>&amp;أسس الذاكرة ببيانات عشوائية</translation>
-    </message>
-    <message>
-        <source>&amp;Get stick status</source>
-        <translation>&amp;احصل على حالة ذاكرة الفلاش</translation>
-    </message>
-    <message>
-        <source>&amp;Set unencrypted volume read-only</source>
-        <translation>&amp;اجعل الجزء غير المشفر للقراءة فقط</translation>
-    </message>
-    <message>
-        <source>&amp;Set unencrypted volume read-write</source>
-        <translation>&amp;اجعل الجزء غير المشفر للقراءة والكتابة</translation>
-    </message>
-    <message>
-        <source>&amp;Setup hidden volume</source>
-        <translation>&amp;هيء الجزء المخفي</translation>
-    </message>
-    <message>
-        <source>&amp;Disable &apos;initialize storage with random data&apos; warning</source>
-        <translation>&amp;عطل رسالة تحذير &quot;أسس الذاكرة ببيانات عشوائية&quot;</translation>
-    </message>
-    <message>
-        <source>&amp;Setup password matrix</source>
-        <translation>&amp;هيء مصفوفة كلمة السر</translation>
-    </message>
-    <message>
-        <source>&amp;Lock stick hardware</source>
-        <translation>&amp;أقفل عتاد الفلاش</translation>
-    </message>
-    <message>
-        <source>&amp;Change Firmware Password</source>
-        <translation>&amp;غير كلمة سر الفيرم وير</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1491"/>
         <source>Warning: Encrypted volume is not secure,
 Select &quot;Initialize device&quot; option from context menu.</source>
         <translation>تحذير: الجزء المسفر غير آمن.
 اختر خاصية &quot;أسس الجهاز&quot; من القائمة الخاصة به</translation>
     </message>
     <message>
-        <source>&amp;Initialize device</source>
-        <translation>&amp;أسس الجهاز</translation>
-    </message>
-    <message>
-        <source>&amp;Reset User PIN</source>
-        <translation>&amp;أعد تهيئة كلمة سر المسخدم</translation>
-    </message>
-    <message>
-        <source>&amp;Lock Device</source>
-        <translation>&amp;أغلق الجهاز</translation>
-    </message>
-    <message>
-        <source>Smartcard or SD card are not ready</source>
-        <translation>الإس دي أو الكرت الذكي غير جاهز</translation>
-    </message>
-    <message>
-        <source>Passwords</source>
-        <translation>كلمات السر</translation>
-    </message>
-    <message>
-        <source>Configure</source>
-        <translation>تهيئة</translation>
-    </message>
-    <message>
-        <source>Special Configure</source>
-        <translation>تهيئة خاصة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="307"/>
         <source>Counter value not copied - there was an error in conversion. Setting counter value to 0. Please retry.</source>
         <translation>قيمة العداد لم يتم نسخها. هناك خطأ في التحويل.
 ضبط قيمة العداد لصفر. يرجى إعادة المحاولة</translation>
     </message>
     <message>
-        <source>Counter value not copied - Nitrokey Storage handles HOTP counter values up to 7 digits. Setting counter value to 0. Please retry.</source>
-        <translation>قيمة العداد لم تنسخ - نتروكي يتعامل مع عداد HTOP لغاية 6 أرقام. ضبط قيمة العداد لصفر. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="411"/>
         <source>TOTP length:</source>
         <translation>طول TOTP</translation>
     </message>
     <message>
-        <source>Enter card admin PIN</source>
-        <translation>أدخل كلمة السر للمدير</translation>
-    </message>
-    <message>
-        <source>Admin PIN:</source>
-        <translation>الرقم السري المدير</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="784"/>
         <source>Wrong PIN. Please try again.</source>
         <translation>كلمة سر خطأ. يرجى إعادة المحاولة</translation>
     </message>
     <message>
-        <source>Enter admin PIN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>AES key generated</source>
-        <translation>مولد مفتاح AES</translation>
-    </message>
-    <message>
-        <source>This activity locks your hidden volume. Do you want to proceed?
-To avoid data loss, please unmount the partitions before proceeding.</source>
-        <translation>هذا العمل يغلق الجزء المخفي. هل تريد الاستمرار؟
-لتجنب فقدان البيانات، يرجى تنزيل الأجزاء المحملة قبل الاستمرار</translation>
-    </message>
-    <message>
-        <source>User pin dialog</source>
-        <translation>شاشة الرقم السري للمستخدم</translation>
-    </message>
-    <message>
-        <source>Enter user PIN:</source>
-        <translation>أدخل الرقم السري المستخدم</translation>
-    </message>
-    <message>
-        <source>This activity locks your encrypted volume. Do you want to proceed?
-To avoid data loss, please unmount the partitions before proceeding.</source>
-        <translation>هذا الإجراء يغلق الجزء المشفر. هل تريد الاستمرار؟
-لتجنب فقدان البيانات، يرجى تنزيل الجهاز قبل الاستمرار</translation>
-    </message>
-    <message>
-        <source>Please enable the encrypted volume first.</source>
-        <translation>يرجى تفعيل الجزء المشفر أولا</translation>
-    </message>
-    <message>
-        <source>Enter password for hidden volume</source>
-        <translation>أدخل كلمة سر الجزء المخفي</translation>
-    </message>
-    <message>
-        <source>Enter password for hidden volume:</source>
-        <translation>أدخل كلمة سر الجزء المخفي:</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1406"/>
         <source>Device has been locked</source>
         <translation>الجهاز تم إغلاقه</translation>
     </message>
     <message>
-        <source>Enter Firmware Password</source>
-        <translation>أدخل كلمة السر للفيرم وير</translation>
-    </message>
-    <message>
-        <source>Enter Firmware Password:</source>
-        <translation>أدخل كلمة السر للفيرم وير:</translation>
-    </message>
-    <message>
-        <source>Enter admin PIN:</source>
-        <translation>أدخل كلمة السر للمدير:</translation>
-    </message>
-    <message>
-        <source>WARNING: Generating new AES keys will destroy the encrypted volumes, hidden volumes, and password safe! Continue?</source>
-        <translation>تحذير: توليد مفاتيح AES الجديدة سوف يدمر الجزء المشفر، الجزء المخفي، وخزانة كلمات السر. هل ترغب في الاستمرار؟</translation>
-    </message>
-    <message>
-        <source>Admin Pin:</source>
-        <translation>كلمة سر المدير:</translation>
-    </message>
-    <message>
-        <source>Enter user PIN</source>
-        <translation>كلمة سر المستخدم:</translation>
-    </message>
-    <message>
-        <source>User PIN:</source>
-        <translation>كلمة سر المستخدم:</translation>
-    </message>
-    <message>
-        <source>The selected lines must be greater then greatest password length</source>
-        <translation>الأسطر المختارة يجب أن تكون أكبر من الطول الأقصى لكلمة السر</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1324"/>
         <source>Counter must be a value between 0 and %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1329"/>
         <source>For Nitrokey Storage counter must be a value between 0 and 9999999</source>
         <translation>لنتروكي ستوريج يجب أن يتكون قيمة العداد بين صفر و 9999999</translation>
     </message>
     <message>
-        <source>Not implemented</source>
-        <translation>لم يطبق</translation>
-    </message>
-    <message>
-        <source>Stick20Dialog: Wrong combobox value! </source>
-        <translation>Stick20Dialog: قيمة خاطئة من القائمة المنسدلة! </translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="590"/>
         <source>Warning: The encrypted Volume is not formatted.
 &quot;Use GParted or fdisk for this.&quot;</source>
         <translation>تحذير: الجزء المشفر ليس مهيأ.
 استخدم أداة GParted أو fdisk للقيام بتهيئته</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="612"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1160"/>
         <source>Please enter a slotname.</source>
         <translation>يرجى إدخال اسم الموضع</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="642"/>
+        <location filename="../src/ui/mainwindow.cpp" line="798"/>
         <source>Configuration successfully written.</source>
         <translation>تمت كتابة التهيئة بنجاح</translation>
     </message>
     <message>
-        <source>The name of the slot must not be empty.</source>
-        <translation>اسم الموضع ينبغي ألا يكون فارغا</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="646"/>
+        <location filename="../src/ui/mainwindow.cpp" line="801"/>
         <source>Error writing configuration!</source>
         <translation>خطأ في كتابة التهيئة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="617"/>
         <source>Nitrokey is not connected!</source>
         <translation>نتروكي ليس متصلا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="781"/>
         <source>Nitrokey not connected!</source>
         <translation>نتروكي ليس متصلا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="817"/>
+        <location filename="../src/ui/mainwindow.cpp" line="825"/>
+        <location filename="../src/ui/mainwindow.cpp" line="841"/>
+        <location filename="../src/ui/mainwindow.cpp" line="849"/>
         <source>One-time password has been copied to clipboard.</source>
         <translation>كلمة السر لمرة واحدة تم نسخها للحافظة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="859"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1047"/>
         <source>WARNING: Are you sure you want to erase the slot?</source>
         <translation>هل أنت متأكد من رغبتك مسح الموصع؟</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="882"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1066"/>
         <source>Slot has been erased successfully.</source>
         <translation>الموضع تم مسحه بنجاح</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1009"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1016"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1065"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1174"/>
         <source>Slot </source>
         <translation>موضع </translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1070"/>
         <source>Can&apos;t clear slot.</source>
         <translation>لم يمكن تحرير الموضع</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1054"/>
         <source>Slot is erased already.</source>
         <translation>الموضع ممسح مسبقا</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1164"/>
         <source>Please enter a password.</source>
         <translation>يرجى إدخال كلمة سر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1184"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1187"/>
         <source>Can&apos;t save slot. %1</source>
         <translation>لم يمكن حفظ موضع %1</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="114"/>
         <source>Generate random password </source>
         <translation>ولد كلمة سر عشوائيا </translation>
     </message>
     <message>
-        <source>Active (debug mode)</source>
-        <translation>نشط (وضع التصحيح)</translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>نشط</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="221"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1272"/>
         <source>Time is out-of-sync</source>
         <translation>الوقت خارج المزامنة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="222"/>
         <source>WARNING!
 
 The time of your computer and Nitrokey are out of sync. Your computer may be configured with a wrong time or your Nitrokey may have been attacked. If an attacker or malware could have used your Nitrokey you should reset the secrets of your configured One Time Passwords. If your computer&apos;s time is wrong, please configure it correctly and reset the time of your Nitrokey.
@@ -1076,98 +885,57 @@ Reset Nitrokey&apos;s time?</source>
 هل ترغب في إعادة تهيئة الوقت في نتروكي؟</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="233"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1284"/>
         <source>Time reset!</source>
         <translation>تمت إعادة تهيئة الوقت!</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1457"/>
         <source>Nitrokey connected</source>
         <translation>تم توصيل نتروكي</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1496"/>
         <source>Warning: Encrypted volume is not secure,
 Select &quot;Initialize storage with random data&quot;</source>
         <translation>تحذير: الجزء المشفر غير آمن.
 اختر &quot;أسس نتروكي ببيانات عشوائية&quot;</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="258"/>
+        <location filename="../src/ui/mainwindow.cpp" line="260"/>
+        <location filename="../src/ui/mainwindow.cpp" line="840"/>
+        <location filename="../src/ui/mainwindow.cpp" line="844"/>
         <source>TOTP slot </source>
         <translation>موصع TOTP </translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="272"/>
+        <location filename="../src/ui/mainwindow.cpp" line="274"/>
+        <location filename="../src/ui/mainwindow.cpp" line="816"/>
+        <location filename="../src/ui/mainwindow.cpp" line="820"/>
         <source>HOTP slot </source>
         <translation>موضع HOTP </translation>
     </message>
     <message>
-        <source>Nitrokey not connected</source>
-        <translation>نتروكي غير متصل</translation>
-    </message>
-    <message>
-        <source>Wrong password</source>
-        <translation>كلمة سر خطأ</translation>
-    </message>
-    <message>
-        <source>Unable to create AES key</source>
-        <translation>لا يمكن إنشاء مفتاح AES</translation>
-    </message>
-    <message>
-        <source>There was an error during communicating with device. Please try again.</source>
-        <translation>هناك خطأ حدث أثناء التواصل مع الجهاز. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>This command fills the encrypted volumes with random data and will destroy all encrypted volumes!
-It requires more than 1 hour for 32GB. Do you want to continue?</source>
-        <translation>هذا الأمر يملأ الجزء المشفر بالبيانات العشوائية وسوف يدمر كل الأجزاء المشفرة!
-تتطلب العملية ما يزيد على الساعة ل 32 جيجابايت. هل تريد الاستمرار؟</translation>
-    </message>
-    <message>
-        <source>Either the password is not correct or the command execution resulted in an error. Please try again.</source>
-        <translation>إما أن كلمة السر غير صحيحة أو أن تنفيذ الأمر نتج عنه خطأ. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>(debug) Response: </source>
-        <translation>(وضع التصحيح) الرد: </translation>
-    </message>
-    <message>
-        <source>Can&apos;t save slot.</source>
-        <translation>لم يمكن حفظ الموضع</translation>
-    </message>
-    <message>
-        <source>Unable to create new AES key</source>
-        <translation>لم يمكن إنشاء مفتاح جديد ل AES</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1228"/>
+        <location filename="../src/ui/mainwindow.cpp" line="1233"/>
         <source>Can&apos;t unlock password safe.</source>
         <translation>لم يمكن فتح خزانة كلمات السر</translation>
     </message>
     <message>
-        <source>Password Safe unlocked successfully.</source>
-        <translation>تم فتح خزانة كلمات السر بنجاح</translation>
-    </message>
-    <message>
-        <source>Password safe is not supported by this device.</source>
-        <translation>خزانة كلمات السر غير مدعومة على هذا الجهاز</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1217"/>
         <source>Wrong user password.</source>
         <translation>كلمة سر خاطئة</translation>
     </message>
     <message>
-        <source>Pasword safe: Can&apos;t get password</source>
-        <translation>خزانة كلمات السر: لم يمكن الحصول على كلمة سر</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1245"/>
         <source>Password safe [%1]</source>
         <translation>خزانة كلمات السر [%1]</translation>
     </message>
     <message>
-        <source>Wrong Pin. Please try again.</source>
-        <translation>رقم سري خاطئ. يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>Enter card user PIN</source>
-        <translation>أدخل كلمة سر المستخدم</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1274"/>
         <source>WARNING!
 
 The time of your computer and Nitrokey are out of sync.
@@ -1186,30 +954,31 @@ Reset Nitrokey&apos;s time?</source>
 هل تريد إعادة تهيئة الوقت على نتروكي؟</translation>
     </message>
     <message>
-        <source>Invalid password!</source>
-        <translation>كلمة سر غير صحيحة!</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="875"/>
         <source>Protect OTP by user PIN (will be requested on first use each session)</source>
         <translation>قم بحماية كلمة السر لمرة واحدة برقم سري للمستخدم (سوف يطلب منك إدخاله في كل استخدام جديد)</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="882"/>
         <source>Forget user PIN after 10 minutes (if unchecked user PIN will remain in memory until application exits)</source>
         <translation>امح كلمة السر للمستخدم بعد 10 دقائق (إذا لم يتم اختياره فإن كلمة سر المستخدم ستبقى في الذاكرة إلى حين الخروج من البرنامج)</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="872"/>
         <source>Command execution failed. Please try again.</source>
         <translation>فشل تنفيذ الأمر. يرجى إعادة المحاولة</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1389"/>
         <source>To handle this functionality application will keep your user PIN in memory. Do you want to continue?</source>
         <translation>للتعامل مع هذه الخاصية، التطبيق سوف يحفظ كلمة سر المستخدم في الذاكرة. هل تريد الاستمرار؟</translation>
     </message>
     <message>
         <source>Detected some communication problems with the device. Reinitializing.</source>
-        <translation>تم اكتشاف بعض مشكلات الاتصال بالجهاز. تتم إعادة التأسيس</translation>
+        <translation type="vanished">تم اكتشاف بعض مشكلات الاتصال بالجهاز. تتم إعادة التأسيس</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="184"/>
         <source>Device lock detected, please remove and insert the device again.
 If problem will occur again please: 
 1. Close the application
@@ -1222,528 +991,928 @@ If problem will occur again please:
 3- الانتظار 30 ثانية ثم تشغيل التطبيق</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="661"/>
         <source>Nitrokey Pro v0.7 does not support secrets starting from null byte. Please change the secret.</source>
         <translation>نتروكي برو إصدار 0.7 لا يدعم الأسرار التي تبدأ من بايت فارغ. يرجى تغيير السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="671"/>
         <source>Your secret is invalid. Please change the secret.</source>
         <translation>السر غير صحيح. يرجى تغيير السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1181"/>
         <source>Slot successfully written.</source>
         <translation>تمت كتابة الموضع بنجاح</translation>
     </message>
     <message>
         <source>Regained connection to the device.</source>
-        <translation>تم استعادة التوصيل مع الجهاز</translation>
+        <translation type="vanished">تم استعادة التوصيل مع الجهاز</translation>
     </message>
     <message>
-        <source>Detected some communication problems with the device.</source>
-        <translation>تم اكتشاف مشكلة في التوصيل مع الجهاز</translation>
-    </message>
-    <message>
-        <source>Cannot get OTP code.</source>
-        <translation>لم يمكن الحصول على رمز كلمة السر لمرة واحدة</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="275"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The secret is provided by your service provider you may want to login or can be configured in your local application which you may want to login to.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/mainwindow.ui" line="338"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide or show the secret.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;After generating a random secret, you would need to copy it into your application or service where you want to login to.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Example: &amp;quot;ZR3M5I...&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exampel: &amp;quot;0xA3911C05...&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location filename="../src/ui/mainwindow.ui" line="1269"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Password Safe fields support UTF8 data. It means that you can use your national characters here. Please remember however that non-English characters could take more space (up to 4 characters). The counters next to each field are to inform how much more standard English characters can given field accept.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>MatrixPasswordDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation>شاشة حوار</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1005"/>
+        <source>&lt;Select Password Safe slot&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>0</source>
-        <translation>0</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1200"/>
+        <source>Password safe unlocked</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>1</source>
-        <translation>1</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1221"/>
+        <source>AES keys not initialized. Please provide Admin PIN.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>2</source>
-        <translation>2</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1223"/>
+        <source>Keys generated. Please unlock Password Safe again.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>3</source>
-        <translation>3</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1226"/>
+        <source>Wrong admin password.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>4</source>
-        <translation>4</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1261"/>
+        <source>User not authenticated</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>5</source>
-        <translation>5</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1273"/>
+        <source>Reset Nitrokey&apos;s time?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>6</source>
-        <translation>6</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1403"/>
+        <source>Locking device</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>7</source>
-        <translation>7</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="1430"/>
+        <source>Closing window due to device disconnection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>8</source>
-        <translation>8</translation>
+        <location filename="../src/ui/mainwindow.ui" line="98"/>
+        <source>Select slot type: TOTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>9</source>
-        <translation>9</translation>
+        <location filename="../src/ui/mainwindow.ui" line="114"/>
+        <source>Select slot type: HOTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation type="unfinished">TextLabel</translation>
+        <location filename="../src/ui/mainwindow.ui" line="163"/>
+        <source>Select OTP slot number</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send data</source>
-        <translation>أرسل البيانات</translation>
+        <location filename="../src/ui/mainwindow.ui" line="220"/>
+        <source>Slot name</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Exit</source>
-        <translation>خروج</translation>
+        <location filename="../src/ui/mainwindow.ui" line="287"/>
+        <source>The secret is provided by your service provider you may want to login or can be configured in your local application which you may want to login to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="290"/>
+        <source>OTP secret key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="293"/>
+        <source>Note: 2nd factors aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="364"/>
+        <source>After generating a random secret, you would need to copy it into your application or service where you want to login to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="380"/>
+        <source>Example: &quot;ZR3M5I...&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="383"/>
+        <source>Secret input format: base32</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="399"/>
+        <source>Example: &quot;A3911C05...&quot; (remove any 0x prefix)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="402"/>
+        <source>Secret input format: hex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="433"/>
+        <source>Entered OTP &apos;Secret Key&apos; string is longer than supported by this device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="436"/>
+        <source>Label shown when the OTP secret key is too long</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="510"/>
+        <source>HOTP moving factor seed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="526"/>
+        <source>Set HOTP counter to zero</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="536"/>
+        <source>Set HOTP counter to random value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="565"/>
+        <source>OTP code length: 6 digits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="578"/>
+        <source>OTP code length:  8 digits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="605"/>
+        <source>TOTP interval value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="711"/>
+        <source>OMP part of Token ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="734"/>
+        <source>TT part of Token ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="757"/>
+        <source>MUI part of Token ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="912"/>
+        <location filename="../src/ui/mainwindow.ui" line="951"/>
+        <location filename="../src/ui/mainwindow.ui" line="976"/>
+        <location filename="../src/ui/mainwindow.ui" line="1001"/>
+        <source>Settings for inserting HOTP code through special key shortcut (USB-Keyboard only)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="1159"/>
+        <source>Erase Password Safe slot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="1176"/>
+        <source>Password Safe slot number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="1304"/>
+        <source>Unlock Password Safe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="155"/>
+        <source>The Nitrokey App is available as an icon in the tray bar.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="743"/>
+        <source>The secret string you have entered is invalid. Please reenter it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1442"/>
+        <source>Connecting device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.ui" line="439"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a40000;&quot;&gt;Entered OTP &apos;Secret Key&apos; string is longer than supported by this device&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <extracomment>Label shown when the OTP secret key is too long</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="635"/>
+        <source>secret is not passing validation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="649"/>
+        <source>Provided secret hex string is invalid. Please check input and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="744"/>
+        <source>Details: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/mainwindow.cpp" line="1502"/>
+        <source>Warning: This Storage firmware version (v0.48) is not correctly handled on MacOS. Application may be unresponsive and unlocking encrypted volume may not work. Please update the firmware to v0.47 or use the other latest one when available.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PasswordDialog</name>
     <message>
+        <location filename="../src/ui/passworddialog.ui" line="20"/>
         <source>Password dialog</source>
         <translation>شاشة كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/passworddialog.ui" line="54"/>
         <source>Enter card password:</source>
         <translation>أدخل كلمة سر الكرت</translation>
     </message>
     <message>
+        <location filename="../src/ui/passworddialog.ui" line="79"/>
         <source>Show password</source>
         <translation>أظهر كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/passworddialog.ui" line="92"/>
         <source>Use password matrix</source>
         <translation>استخدم مصفوفة كلمات السر</translation>
-    </message>
-    <message>
-        <source>Your PIN is too long! Use not more than 30 characters.</source>
-        <translation>كلمة السر طويلة كثيرا! استخدم كلمة لا تزيد عن 30 حرفا</translation>
-    </message>
-    <message>
-        <source>Your PIN is too short. Use at least 6 characters.</source>
-        <translation>كلمة السر قصيرة كثيرا. استخدم كلمة لا تقل عن 8 أحرف</translation>
-    </message>
-    <message>
-        <source>Warning: Default PIN is used.
-Please change the PIN.</source>
-        <translation>تحذير: لقد استخدمت كلمة السر الافتراضية. يرجى تغيير كلمة السر</translation>
-    </message>
-    <message>
-        <source>Device is not yet initialized. Please try again later.</source>
-        <translation>الجهاز لم يتم تأسيسه بعد. يرجى إعادة المحاولة لاحقا</translation>
-    </message>
-</context>
-<context>
-    <name>PasswordSafeDialog</name>
-    <message>
-        <source>Password safe</source>
-        <translation>خزانة كلمة السر</translation>
-    </message>
-    <message>
-        <source>Send password</source>
-        <translation>أرسل كلمة السر</translation>
-    </message>
-    <message>
-        <source>Send loginname</source>
-        <translation>أرسل اسم الدخول</translation>
-    </message>
-    <message>
-        <source>Send PW tab LN</source>
-        <translation>Send PW tab LN</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>نعم</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
-    </message>
-    <message>
-        <source> Cut &amp;&amp; paste</source>
-        <translation>  قص &amp;&amp; لزق</translation>
-    </message>
-    <message>
-        <source> via Keyboard</source>
-        <translation> عبر لوحة المفاتيح</translation>
-    </message>
-    <message>
-        <source>Password Safe Slot </source>
-        <translation>موضع خزانة كلمات السر </translation>
-    </message>
-    <message>
-        <source> clicked.
-Press &lt;Button&gt; to copy value to clipboard&lt;/Button&gt;</source>
-        <translation type="vanished"> تم الضغط على  
-اضغط  &lt;Button&gt; لنسخ القيمة للحافظة&lt;/Button&gt;</translation>
-    </message>
-    <message>
-        <source>Can&apos;t send password chars via HID</source>
-        <translation>لم يمكن إرسال كلمة السر عبر HID</translation>
-    </message>
-    <message>
-        <source>Can&apos;t get password</source>
-        <translation>لم يمكن الحصول على كلمة السر</translation>
-    </message>
-    <message>
-        <source>Can&apos;t send loginname via keyboard</source>
-        <translation>لم يمكن إرسال اسم المستخدم عبر لوحة المفاتيح</translation>
-    </message>
-    <message>
-        <source>Can&apos;t send CR via keyboard</source>
-        <translation>لم يمكن إرسال CR عبر لوحة المفاتيح</translation>
-    </message>
-    <message>
-        <source>Can&apos;t send password via keyboard</source>
-        <translation>لم يمكن إرسال كلمة السرعبر لوحة المفاتيح</translation>
-    </message>
-    <message>
-        <source>Can&apos;t send loginname chars via HID</source>
-        <translation>لم يمكن إرسال اسم المستخدم عبر HID</translation>
-    </message>
-    <message>
-        <source>PW Safe Slot </source>
-        <translation>موضع خزانة كلمة السر </translation>
-    </message>
-    <message>
-        <source> clicked.
-Press &lt;Button&gt; and set cursor to the input dialog.
-The value is send in &lt;/Button&gt;</source>
-        <translation type="vanished"> تم الضغط
-اضغط &lt;Button&gt; وضع المؤشر على نافذة الادخال. 
-وسوف ترسل القيمة &lt;/Button&gt;</translation>
-    </message>
-    <message>
-        <source> seconds</source>
-        <translation> ثواني</translation>
-    </message>
-    <message>
-        <source> clicked.
-Press &lt;Button&gt; to copy value to clipboard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source> clicked.
-Press &lt;Button&gt; and set cursor to the input dialog.
-The value is send in </source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PinDialog</name>
     <message>
+        <location filename="../src/ui/pindialog.ui" line="20"/>
         <source>Password dialog</source>
         <translation>نافذة كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.ui" line="54"/>
         <source>Enter card password:</source>
         <translation>أدخل كلمة سر الكرت</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.ui" line="82"/>
         <source>Show password</source>
         <translation>أظهر كلمة السر</translation>
     </message>
     <message>
-        <source>Use password matrix</source>
-        <translation>استخدم مصفوفة كلمات السر</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/pindialog.ui" line="135"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.ui" line="158"/>
         <source>&amp;Cancel</source>
         <translation>&amp;ألغ</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.ui" line="174"/>
         <source>&amp;OK</source>
         <translation>&amp;نعم</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.cpp" line="114"/>
         <source>Your PIN is too long! Use not more than 30 characters.</source>
         <translation>كلمة السر طويلة كثيرا! استخدم كلمة لا تزيد عن 30 حرفا</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.cpp" line="119"/>
         <source>Your PIN is too short. Use at least 6 characters.</source>
         <translation>كلمة السر قصيرة كثيرا. استخدم كلمة لا تقل عن 8 أحرف</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.cpp" line="126"/>
         <source>Warning: Default PIN is used.
 Please change the PIN.</source>
         <translation>تحذير: لقد استخدمت الرقم السري الافتراضي.
  يرجى تغيير الرقم السري</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.cpp" line="37"/>
+        <location filename="../src/ui/pindialog.cpp" line="160"/>
         <source>Tries left: %1</source>
         <translation>المحاولات المتبقية:%1</translation>
     </message>
     <message>
+        <location filename="../src/ui/pindialog.cpp" line="164"/>
         <source>Device is not yet initialized. Please try again later.</source>
         <translation>الجهاز لم يتم تأسيسه بعد. يرجى إعادة المحاولة</translation>
     </message>
-</context>
-<context>
-    <name>Stick20Dialog</name>
     <message>
-        <source>Stick 2.0</source>
-        <translation>Stick 2.0</translation>
+        <location filename="../src/ui/pindialog.cpp" line="41"/>
+        <source>Enter user PIN</source>
+        <translation type="unfinished">كلمة سر المستخدم:</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Stick 2.0 command&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Stick 2.0 أمر&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../src/ui/pindialog.cpp" line="42"/>
+        <source>User PIN:</source>
+        <translation type="unfinished">كلمة سر المستخدم:</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Admin-PIN&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;مدير-كلمة سر&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>PIN</source>
-        <translation>رمز/كلمة سر</translation>
-    </message>
-    <message>
-        <source>Show PIN</source>
-        <translation>أظهر الرمز/كلمة سر</translation>
-    </message>
-    <message>
-        <source>Use matrix</source>
-        <translation>استخدم مصفوفة</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Stick 2.0 command&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <location filename="../src/ui/pindialog.cpp" line="45"/>
+        <source>Enter admin PIN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Admin-PIN&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <location filename="../src/ui/pindialog.cpp" line="46"/>
+        <source>Admin PIN:</source>
+        <translation type="unfinished">كلمة سر المستخدم المدير</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pindialog.cpp" line="49"/>
+        <source>Enter Firmware Password</source>
+        <translation type="unfinished">أدخل كلمة السر للفيرم وير</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pindialog.cpp" line="50"/>
+        <source>Enter Firmware Password:</source>
+        <translation type="unfinished">أدخل كلمة السر للفيرم وير:</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pindialog.cpp" line="56"/>
+        <source>Enter password for hidden volume</source>
+        <translation type="unfinished">أدخل كلمة سر الجزء المخفي</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pindialog.cpp" line="57"/>
+        <source>Enter password for hidden volume:</source>
+        <translation type="unfinished">أدخل كلمة سر الجزء المخفي:</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pindialog.ui" line="61"/>
+        <source>Enter card PIN</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>Stick20InfoDialog</name>
+    <name>QApplication</name>
     <message>
-        <source>Device status</source>
-        <translation>حالة الجهاز</translation>
+        <location filename="../src/main.cpp" line="151"/>
+        <source>Critical error encountered. Please restart application.
+Message: </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="49"/>
+        <source>Communication error. Please reinsert the device.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="52"/>
+        <source>The secret string you have entered is invalid. Please reenter it.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Nitrokey Storage status
-
-</source>
-        <translation>حالة نتروكي ستوريج
-
-</translation>
+        <location filename="../src/ui/mainwindow.cpp" line="53"/>
+        <source>Details: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Stick20ResponseDialog</name>
     <message>
+        <location filename="../src/ui/stick20responsedialog.ui" line="23"/>
         <source>Progress</source>
         <translation>التقدم</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20responsedialog.ui" line="46"/>
         <source>HeaderLabel</source>
         <translation>HeaderLabel</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20responsedialog.ui" line="61"/>
         <source>LabelProgressWheel</source>
         <translation>LabelProgressWheel</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20responsedialog.ui" line="116"/>
         <source>TextLabel</source>
         <translation type="unfinished">TextLabel</translation>
     </message>
 </context>
 <context>
-    <name>Stick20ResponseTask</name>
+    <name>StorageActions</name>
     <message>
-        <source>Wrong password</source>
-        <translation>كلمة سر خاطئة</translation>
+        <location filename="../src/GUI/StorageActions.cpp" line="60"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="241"/>
+        <source>This activity locks your hidden volume. Do you want to proceed?
+To avoid data loss, please unmount the partitions before proceeding.</source>
+        <translation type="unfinished">هذا العمل يغلق الجزء المخفي. هل تريد الاستمرار؟
+لتجنب فقدان البيانات، يرجى تنزيل الأجزاء المحملة قبل الاستمرار</translation>
     </message>
     <message>
-        <source>Encrypted volume unlocked successfully</source>
-        <translation>الجزء المشفر تم فتحه بنجاح</translation>
-    </message>
-    <message>
-        <source>Encrypted volume locked successfully</source>
-        <translation>الجزء المشفر تم غلقه بنجاح</translation>
-    </message>
-    <message>
-        <source>Hidden volume unlocked successfully</source>
-        <translation>الجزء المخفي تم فتحه بنجاح</translation>
-    </message>
-    <message>
-        <source>Hidden volume locked successfully</source>
-        <translation>الجزء المخفي تم غلقه بنجاح</translation>
-    </message>
-    <message>
-        <source>Hidden volume setup successfully</source>
-        <translation>الجزء المخفي تم تهيئته بنجاح</translation>
-    </message>
-    <message>
-        <source>Cleartext volume is in readonly mode</source>
-        <translation>الجزء غير المشفر في وضع القراءة فقط</translation>
-    </message>
-    <message>
-        <source>Cleartext volume is in readwrite mode</source>
-        <translation>الجزء غير المشفر في وضع القراءة والكتابة</translation>
-    </message>
-    <message>
-        <source>Warning disabled</source>
-        <translation>التحذيرات معطلة</translation>
-    </message>
-    <message>
-        <source>Firmware is locked</source>
-        <translation>الفيرم وير مغلق</translation>
-    </message>
-    <message>
-        <source>Firmware exported successfully</source>
-        <translation>تم تصدير الفيرم وير بنجاح</translation>
-    </message>
-    <message>
-        <source>New keys generated successfully</source>
-        <translation>المفاتيح الجديدة ولدت بنجاح</translation>
-    </message>
-    <message>
-        <source>Storage successfully initialized with random data</source>
-        <translation>تم تأسيس نتروكي ستوريج ببيانات عشوائية. يرجى إخراج الجهاز وإدخالة مرة أخرى لإكمال عملية التأسيس</translation>
-    </message>
-    <message>
-        <source>Can&apos;t enable hidden volume</source>
-        <translation>لم يمكن تفعيل الجزء المخفي</translation>
-    </message>
-    <message>
-        <source>Please enable the encrypted volume first.</source>
-        <translation>يرجى تفعيل الجزء المشفر أولا</translation>
-    </message>
-    <message>
-        <source>Encrypted volume was not enabled, please enable the encrypted volume</source>
-        <translation>الجزء المشفر غير مفعل، يرجى تفعيل الجزء المشفر</translation>
-    </message>
-    <message>
-        <source>Smartcard error, please retry the command</source>
-        <translation>خطأ في سمارت كارد، يرجى إعادة المحاولة</translation>
-    </message>
-    <message>
-        <source>Security bit of the device is activated.
-Firmware update is not possible.</source>
-        <translation>تم تفعيل خيار الأمان على الجهاز
-لا يمكن تحديث الفيرم وير</translation>
-    </message>
-</context>
-<context>
-    <name>Stick20Setup</name>
-    <message>
-        <source>Dialog</source>
-        <translation>شاشة</translation>
-    </message>
-    <message>
-        <source>Stick 2.0 setup</source>
-        <translation>Stick 2.0 تهيئة</translation>
-    </message>
-    <message>
-        <source>Change admin PIN</source>
-        <translation>غير الرمز السري للمدير</translation>
-    </message>
-    <message>
-        <source>Change password</source>
+        <location filename="../src/GUI/StorageActions.cpp" line="71"/>
+        <source>Enabling encrypted volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Change matrix input</source>
-        <translation>غير مدخلات المصفوفة</translation>
+        <location filename="../src/GUI/StorageActions.cpp" line="107"/>
+        <source>Encrypted volume enabled</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Setup hidden volume</source>
-        <translation>هيء الجزء المخفي</translation>
+        <location filename="../src/GUI/StorageActions.cpp" line="109"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="113"/>
+        <source>Could not enable encrypted volume.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The selected lines must be greater then greatest password length</source>
-        <translation>الأسطر المختارة لابد تكون أكبر من أطول كلمة سر</translation>
+        <location filename="../src/GUI/StorageActions.cpp" line="110"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="228"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="424"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="471"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="502"/>
+        <source>Wrong password.</source>
+        <translation type="unfinished">الرقم السري خاطئ</translation>
     </message>
     <message>
-        <source>Build a new base key for the hidden volume? all data get lost</source>
-        <translation>هل تريد بناء قاعدة جديدة لمفاتيح الجزء المخفي؟ سوف تفقد كل البيانات</translation>
+        <location filename="../src/GUI/StorageActions.cpp" line="114"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="160"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="232"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="277"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="326"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="428"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="475"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="505"/>
+        <source>Status code: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="124"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="174"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="288"/>
+        <source>This activity locks your encrypted volume. Do you want to proceed?
+To avoid data loss, please unmount the partitions before proceeding.</source>
+        <translation type="unfinished">هذا الإجراء يغلق الجزء المشفر. هل تريد الاستمرار؟
+لتجنب فقدان البيانات، يرجى تنزيل الجهاز قبل الاستمرار</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="130"/>
+        <source>Disabling encrypted volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="156"/>
+        <source>Encrypted volume disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="159"/>
+        <source>Could not lock encrypted volume.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="169"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="601"/>
+        <source>Please enable the encrypted volume first.</source>
+        <translation type="unfinished">يرجى تفعيل الجزء المشفر أولا</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="187"/>
+        <source>Enabling hidden volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="225"/>
+        <source>Hidden volume enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="227"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="231"/>
+        <source>Could not enable hidden volume.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="246"/>
+        <source>Disabling hidden volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="273"/>
+        <source>Hidden volume disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="276"/>
+        <source>Could not lock hidden volume.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="296"/>
+        <source>Locking device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="322"/>
+        <source>Device locked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="325"/>
+        <source>Could not lock device.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="352"/>
+        <source>Device set in update mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="353"/>
+        <source>Device could not be set in update mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="372"/>
+        <source>Firmware exported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="372"/>
+        <source>Could not export firmware.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="382"/>
+        <source>WARNING: Generating new AES keys will destroy the encrypted volumes, hidden volumes, and password safe! Continue?</source>
+        <translation type="unfinished">تحذير: توليد مفاتيح AES الجديدة سوف يدمر الجزء المشفر، الجزء المخفي، وخزانة كلمات السر. هل ترغب في الاستمرار؟</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="392"/>
+        <source>Generating new AES keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="418"/>
+        <source>New AES keys generated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="423"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="427"/>
+        <source>Keys could not be generated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="470"/>
+        <location filename="../src/GUI/StorageActions.cpp" line="474"/>
+        <source>Could not clear SD card.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="510"/>
+        <source>Communication issue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="525"/>
+        <source>Flag cannot be cleared.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="526"/>
+        <source>Flag cleared.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="545"/>
+        <source>Cannot set unencrypted volume read-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="546"/>
+        <source>Unencrypted volume set read-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="566"/>
+        <source>Cannot set unencrypted volume read-write</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="567"/>
+        <source>Unencrypted volume set read-write</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="580"/>
+        <source>Functionality not implemented in current version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="605"/>
+        <source>Hidden volume created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/StorageActions.cpp" line="606"/>
+        <source>Hidden volume could not be created.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>Stick20Window</name>
+    <name>Tray</name>
     <message>
-        <source>MainWindow</source>
+        <location filename="../src/GUI/Tray.cpp" line="64"/>
+        <source>Active (debug mode)</source>
+        <translation type="unfinished">نشط (وضع التصحيح)</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="66"/>
+        <source>Active</source>
+        <translation type="unfinished">نشط</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="146"/>
+        <source>Nitrokey not connected</source>
+        <translation type="unfinished">نتروكي غير متصل</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="172"/>
+        <source>Unlock password safe</source>
+        <translation type="unfinished">افتح خزانة كلمات السر</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="176"/>
+        <source>&amp;OTP</source>
+        <translation type="unfinished">&amp;OTP</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="179"/>
+        <source>&amp;Factory reset</source>
+        <translation type="unfinished">&amp;تهيئة المصنع</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="182"/>
+        <location filename="../src/GUI/Tray.cpp" line="228"/>
+        <source>&amp;Change User PIN</source>
+        <translation type="unfinished">&amp;غير كلمة سر المستخدم</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="186"/>
+        <location filename="../src/GUI/Tray.cpp" line="232"/>
+        <source>&amp;Change Admin PIN</source>
+        <translation type="unfinished">&amp;غير كلمة سر المدير</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="192"/>
+        <source>&amp;Debug</source>
+        <translation type="unfinished">&amp;صحح</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="195"/>
+        <source>&amp;Quit</source>
+        <translation type="unfinished">&amp;أخرج</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="199"/>
+        <source>&amp;About Nitrokey</source>
+        <translation type="unfinished">&amp;حول نتروكي</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="206"/>
+        <source>&amp;OTP and Password safe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="209"/>
+        <source>&amp;Unlock encrypted volume</source>
+        <translation type="unfinished">&amp;افتح الجزء المشفر</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="214"/>
+        <source>&amp;Lock encrypted volume</source>
+        <translation type="unfinished">&amp;أغلق الجزء المشفر</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="219"/>
+        <source>&amp;Unlock hidden volume</source>
+        <translation type="unfinished">&amp;افتح الجزء المخفي</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="224"/>
+        <source>&amp;Lock hidden volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="236"/>
+        <source>&amp;Change Firmware Password</source>
+        <translation type="unfinished">&amp;غير كلمة سر الفيرم وير</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="240"/>
+        <source>&amp;Enable firmware update</source>
+        <translation type="unfinished">&amp;فعل تحديث الفيرم وير</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="244"/>
+        <source>&amp;Export firmware to file</source>
+        <translation type="unfinished">&amp;صدر الفيرم وير لملف</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="251"/>
+        <source>&amp;Destroy encrypted data</source>
+        <translation type="unfinished">&amp;دمر بيانات الجزء المشفر</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="256"/>
+        <source>&amp;Initialize device</source>
+        <translation type="unfinished">&amp;أسس الجهاز</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="265"/>
+        <source>&amp;Initialize storage with random data</source>
+        <translation type="unfinished">&amp;أسس الذاكرة ببيانات عشوائية</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="270"/>
+        <source>&amp;Set unencrypted volume read-only</source>
+        <translation type="unfinished">&amp;اجعل الجزء غير المشفر للقراءة فقط</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="275"/>
+        <source>&amp;Set unencrypted volume read-write</source>
+        <translation type="unfinished">&amp;اجعل الجزء غير المشفر للقراءة والكتابة</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="282"/>
+        <source>&amp;Setup hidden volume</source>
+        <translation type="unfinished">&amp;هيء الجزء المخفي</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="287"/>
+        <source>&amp;Disable &apos;initialize storage with random data&apos; warning</source>
+        <translation type="unfinished">&amp;عطل رسالة تحذير &quot;أسس الذاكرة ببيانات عشوائية&quot;</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="291"/>
+        <source>&amp;Lock stick hardware</source>
+        <translation type="unfinished">&amp;أقفل عتاد الفلاش</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="295"/>
+        <source>&amp;Reset User PIN</source>
+        <translation type="unfinished">&amp;أعد تهيئة كلمة سر المسخدم</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="299"/>
+        <source>&amp;Lock Device</source>
+        <translation type="unfinished">&amp;أغلق الجهاز</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="302"/>
+        <source>Smartcard or SD card are not ready</source>
+        <translation type="unfinished">الإس دي أو الكرت الذكي غير جاهز</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="341"/>
+        <source>Passwords</source>
+        <translation type="unfinished">كلمات السر</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="409"/>
+        <source>(empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="420"/>
+        <location filename="../src/GUI/Tray.cpp" line="526"/>
+        <source>Configure</source>
+        <translation type="unfinished">تهيئة</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="564"/>
+        <source>Special Configure</source>
+        <translation type="unfinished">تهيئة خاصة</translation>
+    </message>
+    <message>
+        <location filename="../src/GUI/Tray.cpp" line="622"/>
+        <source>Long operation in progress: %1%</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>UpdateDialog</name>
     <message>
+        <location filename="../src/ui/stick20updatedialog.ui" line="14"/>
+        <location filename="../src/ui/stick20updatedialog.ui" line="49"/>
         <source>Firmware update</source>
         <translation>تحديث الفيرم وير</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;When you select &quot;OK&quot; the device enters the &lt;br /&gt;firmware update mode. There is no way back!&lt;br /&gt;Please read the &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation &lt;/span&gt;&lt;/a&gt;how to &lt;br /&gt;update the firmware.&lt;/p&gt;&lt;p&gt;Continue entering the firmware update mode?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;عندما تختار &quot;نعم&quot; الجهاز سيدخل في وضع &lt;br /&gt;تحديث الفيرم وير. ليس هناك خط للرجعة!&lt;br /&gt;Please read the &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;وثائق &lt;/span&gt;&lt;/a&gt;how to &lt;br /&gt;حدث الفيرم وير&lt;/p&gt;&lt;p&gt;هل ترغب في الاستمرار والدخول في وضع تحديث الفيرم وير؟&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../src/ui/stick20updatedialog.ui" line="65"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you select &amp;quot;OK&amp;quot; the device enters the &lt;br/&gt;firmware update mode. There is no way back!&lt;br/&gt;Please read the &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation &lt;/span&gt;&lt;/a&gt;how to &lt;br/&gt;update the firmware.&lt;/p&gt;&lt;p&gt;Continue entering the firmware update mode?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../src/main.cpp" line="249"/>
+        <source>Nitrokey App - Manage your Nitrokey sticks</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you select &amp;quot;OK&amp;quot; the device enters the &lt;br/&gt;firmware update mode. There is no way back!&lt;br/&gt;Please read the &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation &lt;/span&gt;&lt;/a&gt;how to &lt;br/&gt;update the firmware.&lt;/p&gt;&lt;p&gt;Continue entering the firmware update mode?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <location filename="../src/main.cpp" line="269"/>
+        <source>Show additional information about binary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="271"/>
+        <source>Enable extra administrative functions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="275"/>
+        <source>List available languages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="257"/>
+        <source>Enable debug messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="259"/>
+        <source>Save debug log to file with name &lt;log-file-name&gt; (experimental)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="262"/>
+        <source>Save debug log to App&apos;s window (experimental)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="267"/>
+        <source>Set delay between commands sent to device (in ms) to &lt;delay&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="277"/>
+        <source>Load translation file with given name and store this choice in settings file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="264"/>
+        <source>Set debug level, 0-4</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>securitydialog</name>
     <message>
+        <location filename="../src/ui/securitydialog.ui" line="14"/>
         <source>Dialog</source>
         <translation>شاشة</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Security Information&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Please read the following carefully.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PIN Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nitrokey is protected by both a user PIN and an admin PIN. Your user PIN can unlock the encrypted storage, password safe, smart card and (if enabled) One-Time Passwords (OTP). OTPs aren&apos;t PIN-protected by default because they are only used as a secondary factor. The smart card is unlocked whenever the user PIN is entered, regardless of the function for which the PIN is entered. The admin PIN can be used to configure settings and to add or change entries. You must change the default PINs and keep them confidential. If the user PIN and admin PIN are entered incorrectly three times each, or if the smart card has been reset to factory settings, all your sensitive data will be permanently lost.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Physical Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;All sensitive data is encrypted and secured against physical attacks. This does not apply to One-Time Passwords (OTP) because they are only used as a secondary factor.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hidden Volumes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Hidden volumes require that the mass storage be initialised with random data. Hidden volumes are protected by both a user PIN and a separate password which can be different for each hidden volume. Without knowing both the user PIN and password, the hidden volume cannot be found and its existence can therefore neither be proven nor disproven. The password for the hidden volume must be strong and long enough to withstand a brute force attack. The hidden volumes are however stored on a flash storage with integrated wear levelling, meaning that information could potentially be leaked to a sophisticated attacker, thereby revealing the existence of hidden volumes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;معلومات أمنية&lt;/span&gt;&lt;/p&gt;&lt;p&gt;يرجى قراءة ما يلي بحذر&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;حماية الرمز السري&lt;/span&gt;&lt;/p&gt;&lt;p&gt;نتروكي محمي بالرمز السري للسمتخدم وللمدير. الرمز السري للمستخدم يمكنه فتح الجزء المشفر، خزانة كلمات السر، الكرت الذكي، ولو كان مفعلا (كلمة السر لمرة واحدة)(OTP). OTPs ليس محميا بالرمز السري أصالة لأنها تستخدم كعامل ثانوي. الكرت الذكي يفتح عند إدخال رمز المستخدم السري بغض النظر عن مهمة الرمز السري,  الرمز السري للمدير يستخدم للإعدادات ولإضافة أو تغيير المدخلات. لابد من تغيير الرموز السرية الافتراضية وحفظها بأمان. إذا أدخل الرمز السري للمستخدم أو المدير 3 مرات بالخطأ، أو أعيد تهيئة الكرت الذكي لتهيئة المصنع، فسوف تفقد كل البيانات للأبد&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;الحماية الحسية&lt;/span&gt;&lt;/p&gt;&lt;p&gt;كل البيانات الحساسة مشفرة ومؤمنة ضد الهجوم الحسي. هذا لا ينطبق على كلمة السر لمرة واحدة لأنها تستخدم كعامل ثانوي(OTP)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;الأجزاء المخفية&lt;/span&gt;&lt;/p&gt;&lt;p&gt;تتطلب أن تكون مساحة التخزين مشفرة ببيانات عشوائية. الأجزاء المخفية محمية بالرمز السري بالإضافة لكلمة سر خاصة بالجزء المخفي. بدون معرفة الرمز السري وكلمة السر الخاصة بالجزء المخفي فلن يمكن معرفة وجود الجزء المخفي أو إثبات وجوده. كلمة سر الجزء المخفي لابد تكون قوية كي تصمد ضد محاولات الكسر القسري. الأجزاء المخفية تحفظ بطريقة قد تؤدي في النهاية لتسريب المعلومات للمهاجم المحترف الذي قد يكتشف وجودها&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/securitydialog.ui" line="45"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">نعم</translation>
     </message>
     <message>
+        <location filename="../src/ui/securitydialog.ui" line="61"/>
         <source>I read and understood this security warning</source>
         <translation>قرأت وفهمت التحذير الأمني</translation>
     </message>
     <message>
+        <location filename="../src/ui/securitydialog.ui" line="26"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Security Information&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Please read the following carefully.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PIN Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nitrokey is protected by both a user PIN and an admin PIN. Your user PIN can unlock the encrypted storage, password safe, smart card and (if enabled) One-Time Passwords (OTP). OTPs aren&apos;t PIN-protected by default because they are only used as a secondary factor. The smart card is unlocked whenever the user PIN is entered, regardless of the function for which the PIN is entered. The admin PIN can be used to configure settings and to add or change entries. You must change the default PINs and keep them confidential. If the user PIN and admin PIN are entered incorrectly three times each, or if the smart card has been reset to factory settings, all your sensitive data will be permanently lost.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Physical Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;All sensitive data is encrypted and secured against physical attacks. This does not apply to One-Time Passwords (OTP) because they are only used as a secondary factor.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hidden Volumes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Hidden volumes require that the mass storage be initialised with random data. Hidden volumes are protected by both a user PIN and a separate password which can be different for each hidden volume. Without knowing both the user PIN and password, the hidden volume cannot be found and its existence can therefore neither be proven nor disproven. The password for the hidden volume must be strong and long enough to withstand a brute force attack. The hidden volumes are however stored on a flash storage with integrated wear levelling, meaning that information could potentially be leaked to a sophisticated attacker, thereby revealing the existence of hidden volumes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1751,171 +1920,226 @@ Firmware update is not possible.</source>
 <context>
     <name>stick20HiddenVolumeDialog</name>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="20"/>
         <source>Setup hidden volume</source>
         <translation>هيء الجزء المخفي</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="112"/>
         <source>Password settings</source>
         <translation>إعدادات كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="179"/>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="186"/>
         <source>Password strength:</source>
         <translation>طول كلمة السر:</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="204"/>
         <source>length</source>
         <translation>طول</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="217"/>
         <source>lower case</source>
         <translation>حرف صغير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="230"/>
         <source>upper case</source>
         <translation>حرف كبير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="246"/>
         <source>numbers</source>
         <translation>أرقام</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="259"/>
         <source>symbols</source>
         <translation>رموز</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="285"/>
         <source>Hidden Volume settings</source>
         <translation>إعدادات الجزء المخفي</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="307"/>
         <source>Hidden volume slot 1</source>
         <translation>الجزء المخفي موضع 1</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="312"/>
         <source>Hidden volume slot 2</source>
         <translation type="unfinished">الجزء المخفي موضع 2</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="317"/>
         <source>Hidden volume slot 3</source>
         <translation type="unfinished">الجزء المخفي موضع 3</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="322"/>
         <source>Hidden volume slot 4</source>
         <translation type="unfinished">الجزء المخفي موضع 4</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="118"/>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="144"/>
         <source>Password:</source>
         <translation>كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="170"/>
         <source>Show password</source>
         <translation>أظهر كلمة السر</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="88"/>
         <source>Your password is too short. Use at least 8 characters.</source>
         <translation>كلمة السر قصيرة جدا. استخدم 8 أحرف على الأقل</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="93"/>
         <source>The passwords are not identical</source>
         <translation>كلمت السر غير متطابقتين</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="102"/>
         <source>Wrong size of hidden volume</source>
         <translation>حجم خطأ للجزء المخفي</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="369"/>
         <source>Unit:</source>
         <translation>وحدة</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="382"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="392"/>
         <source>MB</source>
         <translation>ميجابايت</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="402"/>
         <source>GB</source>
         <translation>جيجابايت</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;Size will be rounded down to integral percent of total storage size (%1MB)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;سوف يتم تقريب الحجم للأدنى كنسبة كلية من الحجم الكلي (%1MB)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Hidden volume not positioned in unwritten space. Please set your volume between %%1 and %%2 of total SD card size.</source>
-        <translation type="vanished">الجزء المخفي غير متموضع في المنطقة التي لم يكتب عليها. يرجى تحديد الحجم بين %1 و %2 من الحجم الكلي لكرت إس دي</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="204"/>
         <source>Very Weak</source>
         <translation>ضعيف جدا</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="204"/>
         <source>Weak</source>
         <translation>ضعيف</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="204"/>
         <source>Medium</source>
         <translation>متوسط</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="204"/>
         <source>Strong</source>
         <translation>قوي</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="204"/>
         <source>Very Strong</source>
         <translation>قوي جدا</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="239"/>
         <source>The unwritten area available for hidden volume
 is between %1 % and %2 % of the storage size</source>
         <translation>المنطقة التي لم يكتب عليها موجودة للجزء المخفي
 بين %1 و %2 من الحجم الكلي</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="246"/>
         <source>Storage capacity: %1GB</source>
         <translation>حجم التخزين: %1 جيجابايت</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="266"/>
         <source>Start hidden volume at %1 of the encrypted storage:</source>
         <translation>إبدأ الجزء المخفي عند %1 من الجزء المشفر</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="267"/>
         <source>End hidden volume at %1 of the encrypted storage:</source>
         <translation>حدد نهاية الجزء المخفي عند %1 من الجزء المشفر</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="75"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;You should understand the properties of hidden volumes before proceeding. It can destroy your encrypted data! &lt;br/&gt;Please read &lt;/span&gt;&lt;a href=&quot;https://www.nitrokey.com/documentation/hidden-volumes&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;these instructions&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; first.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1. You may want to copy some innocuous files to the encrypted data.&lt;br/&gt;2. Configure hidden volumes in this dialogue. &lt;br/&gt;3. Once you configured a hidden volume you must not use/write to the encryption volume anymore. Otherwise it may destroy the data in your hidden volume.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Size will be rounded down to integral percent of total storage size (%1MB)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <location filename="../src/ui/stick20hiddenvolumedialog.cpp" line="108"/>
+        <source>Hidden volume not positioned in unwritten space. Please set your volume between %1% and %2% of total SD card size.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hidden volume not positioned in unwritten space. Please set your volume between %1% and %2% of total SD card size.</source>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="125"/>
+        <source>Hidden volume password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="128"/>
+        <source>Please use shift+tab key shortcut for instructions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="154"/>
+        <source>Hidden volume password (repeated)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="303"/>
+        <source>Slot under which hidden volume information will be stored</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="379"/>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="389"/>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="399"/>
+        <source>Use this as hidden volume size unit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/stick20hiddenvolumedialog.ui" line="507"/>
+        <source>Size will be rounded down to integral percent of total storage size (%1MB)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>stick20LockFirmwareDialog</name>
     <message>
+        <location filename="../src/ui/stick20lockfirmwaredialog.ui" line="20"/>
         <source>Lock firmware</source>
         <translation>أغلق الفيم وير</translation>
     </message>
     <message>
+        <location filename="../src/ui/stick20lockfirmwaredialog.ui" line="49"/>
         <source>Lock Firmware</source>
         <translation>أغلق الفيرم وير</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;When you select &quot;OK&quot; the stick lock the firmware and close the hardware debug port.This disables any external hardware access to the data in the device (processor).&lt;/p&gt;&lt;p&gt;There is no way back! &lt;/p&gt;&lt;p&gt;After this you can&apos;t update the firmware.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head /&gt;&lt;body&gt;&lt;p&gt;عندما تختار &quot;نعم&quot; سوف يغلق الجهاز الفيرم وير ويغلق منفذ التصحيح.هذا يعطل أي تدخل خارجي للعتاد من الدخول للجهاز (المعالج).&lt;/p&gt;&lt;p&gt;ليس هناك طريق رجعة! &lt;/p&gt;&lt;p&gt;لن يمكن بعد هذا من تحديث الفيرم وير&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
+        <location filename="../src/ui/stick20lockfirmwaredialog.ui" line="65"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you select &amp;quot;OK&amp;quot; the stick lock the firmware and close the hardware debug port.This disables any external hardware access to the data in the device (processor).&lt;/p&gt;&lt;p&gt;There is no way back! &lt;/p&gt;&lt;p&gt;After this you can&apos;t update the firmware.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
