@@ -9,16 +9,25 @@ Last-Update: 2016-10-03
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -268,12 +268,6 @@
-    DESTINATION lib/udev/rules.d
+@@ -170,21 +170,6 @@
+     DESTINATION ${UDEV_MAIN_DIR}
    )
  
 -  # Install autocompletion scripts
+-  set(PKG_GET_BASH_COMPLETION ${PKG_CONFIG_EXECUTABLE} --variable=completionsdir bash-completion)
+-  execute_process(COMMAND ${PKG_GET_BASH_COMPLETION} RESULT_VARIABLE ERR OUTPUT_VARIABLE BASH_COMPLETION_DIR OUTPUT_STRIP_TRAILING_WHITESPACE)
+-  IF(${ERR})
+-    set(BASH_COMPLETION_DIR "etc/bash_completion.d")
+-  ENDIF()
+-  string(REGEX REPLACE "^/" "" BASH_COMPLETION_DIR "${BASH_COMPLETION_DIR}")
+-  string(REGEX REPLACE "^usr/" "" BASH_COMPLETION_DIR "${BASH_COMPLETION_DIR}") # usual prefix is usr/local
+-  message(STATUS "Setting bash-completion dir to ${BASH_COMPLETION_DIR}")
+-
 -  install(FILES
 -   ${CMAKE_SOURCE_DIR}/data/bash-autocomplete/nitrokey-app
--    DESTINATION /etc/bash_completion.d
+-    DESTINATION ${BASH_COMPLETION_DIR}
 -  )
 -
    install(FILES
-    ${CMAKE_SOURCE_DIR}/po/de_DE/nitrokey-app.mo
-    DESTINATION share/locale/de_DE/LC_MESSAGES
+     ${CMAKE_SOURCE_DIR}/images/info.png
+     ${CMAKE_SOURCE_DIR}/images/quit.png

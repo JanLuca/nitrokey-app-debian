@@ -1,2 +1,3 @@
 0001-use-debhelper-for-bash-completion.patch
 0002-fix-installation-paths.patch
+0003-add-more-info-to-udev-rules.patch

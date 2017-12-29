@@ -29,29 +29,73 @@ Copyright: 2012 Andrzej Surowiec
            2015 jans23 <jans23@users.noreply.github.com>
 License: GPL-3.0+
 
-Files: src/inttypes.h
-Copyright: 2004, 2005, 2007 Joerg Wunsch
-           2005 Carlos Lamas
+Files: src/device.cpp
+       src/hotpslot.cpp
+       src/hotpslot.h
+       src/main.cpp
+       src/ui/pindialog.cpp
+       src/ui/pindialog.h
+       src/utils/sleep.h
+Copyright: 2012 Andrzej Surowiec
+License: GPL-3.0+
+
+Files: src/libada.h
+       src/libada.cpp
+       src/core/ScopedGuard.h
+       src/core/SecureString.cpp
+       src/core/SecureString.h
+       src/GUI/Authentication.cpp
+       src/GUI/Authentication.h
+       src/GUI/Clipboard.cpp
+       src/GUI/Clipboard.h
+       src/GUI/StorageActions.cpp
+       src/GUI/StorageActions.h
+       src/GUI/Tray.cpp
+       src/GUI/Tray.h
+       src/utils/bool_values.h
+Copyright: 2017 Szczepan Zalega <szczepan@nitrokey.com>
+License: GPL-3.0+
+
+Files: src/ui/aboutdialog.cpp
+       src/ui/mainwindow.cpp
+       src/ui/mainwindow.h
+Copyright: 2012 Andrzej Surowiec
+           2013 Rudolf Boeddeker
+License: GPL-3.0+
+
+Files: src/ui/stick20changepassworddialog.cpp
+       src/ui/stick20changepassworddialog.h
+       src/ui/stick20changepassworddialog.h
+       src/ui/stick20debugdialog.h
+       src/ui/stick20hiddenvolumedialog.cpp
+       src/ui/stick20hiddenvolumedialog.h
+       src/ui/stick20lockfirmwaredialog.cpp
+       src/ui/stick20responsedialog.cpp
+       src/ui/stick20responsedialog.h
+       src/ui/stick20-response-task.cpp
+       src/ui/stick20updatedialog.cpp
+       src/ui/stick20updatedialog.h
+Copyright: 2013-2014 Rudolf Boeddeker
+License: GPL-3.0+
+
+Files: 3rdparty/cppcodec/*
+Copyright: 2015-2016 Topology LP
+           2015 Trustifier Inc.
+           2015 Ahmed Masud
+           2013 Adam Rudd
+License: Expat
+
+Files: libnitrokey/*
+Copyright: 2016-2017 Szczepan Zalega <szczepan@nitrokey.com>
+License: LGPL-3.0
+
+Files: libnitrokey/include/inttypes.h
+Copyright: 2004,2005,2007 Joerg Wunsch Copyright (c) 2005, Carlos Lamas All rights reserved.
 License: BSD-3-clause
 
-Files: src/ui/splash.cpp
-       src/ui/splash.h
-       src/utils/gui.cpp
-       src/utils/gui.h
-Copyright: 2009 Antonio Di Monaco <tony@becrux.com>
-License: GPL-2.0+
-
-Files: src/utils/base32.cpp
-       src/utils/base32.h
-Copyright: 2010 Google Inc.
-License: Apache-2.0
-
-Files: src/utils/hidapi.h
-       src/utils/hid_libusb.c
-       src/utils/hid_mac.c
-       src/utils/hid_win.c
-Copyright: 2009-2011 Alan Ott, Signal 11 Software
-License: BSD-3-clause
+Files: libnitrokey/include/hidapi/hidapi.h
+Copyright: 2009, Alan Ott, Signal 11 Software
+License: Hidapi-BSD
 
 Files: debian/*
 Copyright: 2016 Jan Luca Naumann <j.naumann@fu-berlin.de>
@@ -74,60 +118,101 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-License: GPL-2.0+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: LGPL-3.0
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3".
 
-License: BSD-3-Clause
+License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. Neither the name of the University nor the names of its contributors
-    may be used to endorse or promote products derived from this software
-    without specific prior written permission.
+ modification, are permitted provided that the following conditions are met:
  .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR 
- A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
- CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
- EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
- PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
- PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
- LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
- NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
- SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ * Neither the name of the copyright holders nor the names of contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
 
-License: Apache-2.0
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+License: Hidapi-BSD
+ At the discretion of the user of this library,
+ this software may be licensed under the terms of the
+ GNU General Public License v3, a BSD-Style license, or the
+ original HIDAPI license as outlined in the LICENSE.txt,
+ LICENSE-gpl3.txt, LICENSE-bsd.txt, and LICENSE-orig.txt
+ files located at the root of the source distribution.
+ These files may also be found in the public source
+ code repository located at:
+        http://github.com/signal11/hidapi .
  .
- https://www.apache.org/licenses/LICENSE-2.0
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
  .
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of Signal 11 Software nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
  .
- On Debian systems, the complete text of the Apache version 2.0 license
- can be found in "/usr/share/common-licenses/Apache-2.0".
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.

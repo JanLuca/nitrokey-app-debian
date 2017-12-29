@@ -1,0 +1,30 @@
+Description: Add subsystem and action filter to the single rules
+Author: Jan Luca Naumann <j.naumann@fu-berlin.de>
+Forwarded: not-done-yet
+Applied-Upstream: not-done-yet
+Last-Update: 2017-12-28
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/data/41-nitrokey.rules
++++ b/data/41-nitrokey.rules
+@@ -6,15 +6,15 @@
+ 
+ # USB SmartCard Readers
+ ## Crypto Stick 1.2
+-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4107", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
++SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="20a0", ATTR{idProduct}=="4107", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
+ ## Nitrokey Pro
+-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4108", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
++SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="20a0", ATTR{idProduct}=="4108", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
+ ## Nitrokey Storage
+-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4109", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
++SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="20a0", ATTR{idProduct}=="4109", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
+ ## Nitrokey Start
+-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4211", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
++SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="20a0", ATTR{idProduct}=="4211", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
+ ## Nitrokey HSM
+-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4230", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
++SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="20a0", ATTR{idProduct}=="4230", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg", GROUP+="plugdev", TAG+="uaccess"
+ 
+ LABEL="gnupg_rules_end"
+ 

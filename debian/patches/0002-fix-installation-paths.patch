@@ -11,18 +11,12 @@ Last-Update: 2016-10-04
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -265,12 +265,12 @@
-   # Install Nitrokey udev rules
-   install(FILES
-    ${CMAKE_SOURCE_DIR}/data/40-nitrokey.rules
--   DESTINATION lib/udev/rules.d
-+   DESTINATION /lib/udev/rules.d
-   )
- 
-   install(FILES
-    ${CMAKE_SOURCE_DIR}/po/de_DE/nitrokey-app.mo
--   DESTINATION share/locale/de_DE/LC_MESSAGES
-+   DESTINATION share/locale/de/LC_MESSAGES
-   )
+@@ -161,8 +161,6 @@
+   ELSE()
+       set(UDEV_MAIN_DIR "${UDEV_MAIN_DIR}/rules.d")
+   ENDIF()
+-  string(REGEX REPLACE "^/" "" UDEV_MAIN_DIR "${UDEV_MAIN_DIR}")
+-  string(REGEX REPLACE "^usr/" "" UDEV_MAIN_DIR "${UDEV_MAIN_DIR}") # usual prefix is usr/local
+   message(STATUS "Setting udev rules dir to ${UDEV_MAIN_DIR}")
  
    install(FILES
