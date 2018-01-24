@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Jan Luca Naumann <j.naumann@fu-berlin.de>
 Build-Depends: bash-completion,
                cmake (>=3.1.0),
-               debhelper (>= 11),
+               debhelper (>= 11~),
                libgtk2.0-dev,
                libnotify-dev,
                libusb-1.0-0-dev,

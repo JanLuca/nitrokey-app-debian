@@ -1,3 +1,9 @@
+nitrokey-app (1.2.0-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Mon, 01 Jan 2018 14:14:45 +0100
+
 nitrokey-app (1.2.0-1) unstable; urgency=medium
 
   * New upstream release.
