@@ -1,3 +1,24 @@
+/*
+ * Copyright (c) 2015-2018 Nitrokey UG
+ *
+ * This file is part of libnitrokey.
+ *
+ * libnitrokey is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * libnitrokey is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with libnitrokey. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * SPDX-License-Identifier: LGPL-3.0
+ */
+
 #include "NK_C_API.h"
 #include <iostream>
 #include "include/NitrokeyManager.h"
@@ -43,6 +64,9 @@ uint8_t * get_with_array_result(T func){
     catch (LibraryException & libraryException){
         NK_last_command_status = libraryException.exception_id();
     }
+    catch (const DeviceCommunicationException &deviceException){
+      NK_last_command_status = 256-deviceException.getType();
+    }
     return nullptr;
 }
 
@@ -58,6 +82,9 @@ const char* get_with_string_result(T func){
     catch (LibraryException & libraryException){
         NK_last_command_status = libraryException.exception_id();
     }
+    catch (const DeviceCommunicationException &deviceException){
+      NK_last_command_status = 256-deviceException.getType();
+    }
     return "";
 }
 
@@ -72,6 +99,9 @@ auto get_with_result(T func){
     }
     catch (LibraryException & libraryException){
         NK_last_command_status = libraryException.exception_id();
+    }
+    catch (const DeviceCommunicationException &deviceException){
+      NK_last_command_status = 256-deviceException.getType();
     }
     return static_cast<decltype(func())>(0);
 }
@@ -119,6 +149,11 @@ extern "C" {
 			NK_last_command_status = commandFailedException.last_command_status;
 			return commandFailedException.last_command_status;
 		}
+    catch (const DeviceCommunicationException &deviceException){
+      NK_last_command_status = 256-deviceException.getType();
+      cerr << deviceException.what() << endl;
+      return 0;
+    }
 		catch (std::runtime_error &e) {
 			cerr << e.what() << endl;
 			return 0;

@@ -21,7 +21,7 @@ IF (UNIX)
     ENDIF()
 ENDIF()
 
-project(libnitrokey LANGUAGES C CXX VERSION 3.1.0)
+project(libnitrokey LANGUAGES C CXX VERSION 3.2.0)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
@@ -50,7 +50,6 @@ set(SOURCE_FILES
     include/device.h
     include/device_proto.h
     include/dissect.h
-    include/inttypes.h
     include/log.h
     include/misc.h
     include/NitrokeyManager.h
@@ -116,7 +115,7 @@ IF (LOG_VOLATILE_DATA)
 ENDIF()
 
 
-file(GLOB LIB_INCLUDES "include/*.h")
+file(GLOB LIB_INCLUDES "include/*.h" "NK_C_API.h")
 install (FILES ${LIB_INCLUDES} DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
 install (TARGETS nitrokey DESTINATION ${CMAKE_INSTALL_LIBDIR})
 
